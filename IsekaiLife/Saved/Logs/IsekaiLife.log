@@ -1225,3 +1225,379 @@ LogInit: Object subsystem initialized
 [2017.03.10-13.26.46:429][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
 [2017.03.10-13.26.46:466][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
 [2017.03.10-13.26.46:876][982]Cmd: SELECT NONE
+[2017.03.10-13.43.44:316][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.10-13.43.44:367][311]LogSavePackage: Save=42.48ms
+[2017.03.10-13.43.44:367][311]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Ch_MyCharacterD452D4EE451D7B6FAD773996536A817D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.10-13.43.44:368][311]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.10-13.43.45:378][432]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.03.10-13.43.46:183][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.10-13.43.46:225][487]LogSavePackage: Save=40.03ms
+[2017.03.10-13.43.46:225][487]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Ch_MyCharacter819F30CC41A78A1ACFA9FFA28B278D9C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.10-13.43.46:226][487]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.10-13.44.30:668][798]BlueprintLog: New page: Compile BP_PickUpActor
+[2017.03.10-13.44.33:227][ 88]LogSavePackage: Save=21.21ms
+[2017.03.10-13.44.33:227][ 88]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActorB7AE20E84E389831BCD377908B6FADBD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-13.44.33:229][ 88]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-13.44.34:553][246]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.44.34:570][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.44.34:571][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.44.34:571][246]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:44:34 PM)
+[2017.03.10-13.44.34:571][246]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.44.34:590][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019589s)
+[2017.03.10-13.44.34:591][246]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.44.34:591][246]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2017.03.10-13.44.34:591][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020594s)
+[2017.03.10-13.44.34:615][246]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.44.34:621][246]LogInit: FAudioDevice initialized.
+[2017.03.10-13.44.34:652][246]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.44.34:655][246]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.44.34
+[2017.03.10-13.44.34:655][246]LogWorld: Bringing up level for play took: 0.002183
+[2017.03.10-13.44.34:657][246]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.035
+[2017.03.10-13.44.34:657][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.44.47:308][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.44.47:367][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.14:117][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.10-13.45.14:166][923]LogSavePackage: Save=46.57ms
+[2017.03.10-13.45.14:166][923]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Ch_MyCharacterDDAB4D704F7FAA2009D65FB89962B090.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.10-13.45.14:167][923]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.10-13.45.15:020][ 25]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.03.10-13.45.15:549][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.10-13.45.15:593][ 70]LogSavePackage: Save=41.84ms
+[2017.03.10-13.45.15:593][ 70]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Ch_MyCharacter463915654350B4869B0E188A2AB41F94.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.10-13.45.15:593][ 70]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.10-13.45.17:872][324]LogSavePackage: Save=120.69ms
+[2017.03.10-13.45.17:872][324]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap37C37A7641BCA4055DF1968BBEDE6DB7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.10-13.45.17:874][324]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.10-13.45.18:011][324]LogSavePackage: Save=105.60ms
+[2017.03.10-13.45.18:011][324]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_BuiltDataAF832883409505E1BA01A9AD5F1D0149.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.10-13.45.18:012][324]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.10-13.45.18:730][400]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.45.18:746][400]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.18:746][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.45.18:746][400]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:45:18 PM)
+[2017.03.10-13.45.18:746][400]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.45.18:764][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017881s)
+[2017.03.10-13.45.18:765][400]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.45.18:765][400]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.03.10-13.45.18:766][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019101s)
+[2017.03.10-13.45.18:790][400]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.45.18:795][400]LogInit: FAudioDevice initialized.
+[2017.03.10-13.45.18:826][400]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.45.18:828][400]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.45.18
+[2017.03.10-13.45.18:829][400]LogWorld: Bringing up level for play took: 0.001717
+[2017.03.10-13.45.18:829][400]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.207
+[2017.03.10-13.45.18:829][400]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.20:505][599]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.45.20:605][611]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.45.21:096][670]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.45.21:180][680]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.45.24:606][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.24:650][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.34:352][243]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.03.10-13.45.34:492][244]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.03.10-13.45.37:487][588]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.45.37:504][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.37:504][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.45.37:504][588]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:45:37 PM)
+[2017.03.10-13.45.37:505][588]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.45.37:523][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018205s)
+[2017.03.10-13.45.37:524][588]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.45.37:524][588]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2017.03.10-13.45.37:524][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019448s)
+[2017.03.10-13.45.37:546][588]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.45.37:552][588]LogInit: FAudioDevice initialized.
+[2017.03.10-13.45.37:592][588]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.45.37:595][588]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.45.37
+[2017.03.10-13.45.37:595][588]LogWorld: Bringing up level for play took: 0.002151
+[2017.03.10-13.45.37:600][588]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.978
+[2017.03.10-13.45.37:600][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.41:227][ 17]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.45.41:328][ 29]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.45.42:061][117]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.45.42:236][138]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.45.46:798][685]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.45.46:998][709]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.45.49:052][955]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.45.50:841][169]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.45.54:551][614]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.45.54:609][614]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.46.00:396][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.10-13.46.00:441][298]LogSavePackage: Save=42.62ms
+[2017.03.10-13.46.00:441][298]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Ch_MyCharacter7419D5394588DD7FA0FBF6B75BF10DF8.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.10-13.46.00:442][298]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.10-13.49.20:985][257]LogSavePackage: Save=23.03ms
+[2017.03.10-13.49.20:985][257]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActorC4F8C6154863148BD2A647823DBF7B0C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-13.49.20:986][257]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-13.49.21:986][377]BlueprintLog: New page: Compile BP_PickUpActor
+[2017.03.10-13.49.22:801][428]LogSavePackage: Save=24.03ms
+[2017.03.10-13.49.22:801][428]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActor72045BBF4BC284B8AEA8A5B4C77DEE3B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-13.49.22:801][428]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-13.49.24:755][641]LogSavePackage: Save=94.86ms
+[2017.03.10-13.49.24:755][641]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap1BDEC0D8453A112E2AA7C49616E17B9D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.10-13.49.24:758][641]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.10-13.49.24:889][641]LogSavePackage: Save=102.19ms
+[2017.03.10-13.49.24:889][641]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_BuiltDataF3329AA049FD17DF1F6207A76830377B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.10-13.49.24:890][641]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.10-13.49.26:248][804]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.49.26:267][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.49.26:268][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.49.26:268][804]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:49:26 PM)
+[2017.03.10-13.49.26:268][804]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.49.26:286][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018349s)
+[2017.03.10-13.49.26:287][804]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.49.26:288][804]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2017.03.10-13.49.26:288][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019910s)
+[2017.03.10-13.49.26:311][804]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.49.26:317][804]LogInit: FAudioDevice initialized.
+[2017.03.10-13.49.26:345][804]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.49.26:348][804]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.49.26
+[2017.03.10-13.49.26:348][804]LogWorld: Bringing up level for play took: 0.001883
+[2017.03.10-13.49.26:349][804]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.273
+[2017.03.10-13.49.26:349][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.49.28:483][ 58]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.28:616][ 74]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.29:558][187]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.29:808][217]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.32:900][588]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.33:025][603]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.33:225][627]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.33:342][641]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.33:442][653]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.33:583][670]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.34:467][776]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.34:625][795]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.34:717][806]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.34:800][816]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.35:167][860]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.35:292][875]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.35:400][888]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.35:517][902]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.35:634][916]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.35:709][925]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.36:484][ 18]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.36:584][ 30]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.36:709][ 45]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.49.36:792][ 55]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.49.37:918][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.49.37:961][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.50.42:540][901]BlueprintLog: New page: Compile BP_PickUpActor
+[2017.03.10-13.50.43:897][ 45]LogSavePackage: Save=25.31ms
+[2017.03.10-13.50.43:897][ 45]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActorCE7B8D3A4EC53CB418717687A7122D75.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-13.50.43:899][ 45]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-13.50.45:205][181]LogSavePackage: Save=97.80ms
+[2017.03.10-13.50.45:205][181]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap2528EE0A4A05E8789E9492994BD8A4D0.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.10-13.50.45:207][181]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.10-13.50.45:615][181]LogSavePackage: Save=380.03ms
+[2017.03.10-13.50.45:615][181]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_BuiltData02E2520B462BA3CF911B5AB85A1FF55E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.10-13.50.45:616][181]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.10-13.50.46:679][302]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.50.46:692][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.50.46:692][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.50.46:692][302]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:50:46 PM)
+[2017.03.10-13.50.46:692][302]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.50.46:710][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018279s)
+[2017.03.10-13.50.46:711][302]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.50.46:711][302]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2017.03.10-13.50.46:711][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019519s)
+[2017.03.10-13.50.46:734][302]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.50.46:739][302]LogInit: FAudioDevice initialized.
+[2017.03.10-13.50.46:768][302]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.50.46:773][302]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.50.46
+[2017.03.10-13.50.46:773][302]LogWorld: Bringing up level for play took: 0.003700
+[2017.03.10-13.50.46:775][302]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.153
+[2017.03.10-13.50.46:776][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.50.48:741][532]LogBlueprintUserMessages: [BP_PickUpActor2_256] Onvelap
+[2017.03.10-13.50.49:491][622]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.50.49:616][637]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.50.50:066][691]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.50.50:141][700]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.50.50:466][739]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.50.50:533][747]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.50.50:875][788]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.50.50:950][797]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.50.51:283][837]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.50.53:300][ 79]LogBlueprintUserMessages: [BP_PickUpActor2_256] not overlap
+[2017.03.10-13.50.53:600][115]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.50.54:675][244]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.50.54:925][274]LogBlueprintUserMessages: [BP_PickUpActor2_256] Onvelap
+[2017.03.10-13.50.54:925][274]LogBlueprintUserMessages: [BP_PickUpActor2_256] not overlap
+[2017.03.10-13.50.54:925][274]LogBlueprintUserMessages: [BP_PickUpActor2_256] not overlap
+[2017.03.10-13.50.55:884][389]LogBlueprintUserMessages: [BP_PickUpActor3] Onvelap
+[2017.03.10-13.50.55:884][389]LogBlueprintUserMessages: [BP_PickUpActor3] not overlap
+[2017.03.10-13.50.55:884][389]LogBlueprintUserMessages: [BP_PickUpActor3] not overlap
+[2017.03.10-13.50.56:517][465]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.51.02:110][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.51.02:145][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.51.03:724][323]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.51.03:740][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.51.03:740][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.51.03:740][323]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:51:03 PM)
+[2017.03.10-13.51.03:740][323]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.51.03:759][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018349s)
+[2017.03.10-13.51.03:760][323]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.51.03:760][323]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2017.03.10-13.51.03:760][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019843s)
+[2017.03.10-13.51.03:786][323]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.51.03:791][323]LogInit: FAudioDevice initialized.
+[2017.03.10-13.51.03:820][323]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.51.03:822][323]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.51.03
+[2017.03.10-13.51.03:822][323]LogWorld: Bringing up level for play took: 0.001720
+[2017.03.10-13.51.03:823][323]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.799
+[2017.03.10-13.51.03:823][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.51.06:153][600]LogBlueprintUserMessages: [BP_PickUpActor2_256] Onvelap
+[2017.03.10-13.51.08:845][923]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.51.10:170][ 82]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.51.11:095][193]LogBlueprintUserMessages: [Ch_MyCharacter_834] on
+[2017.03.10-13.51.11:312][219]LogBlueprintUserMessages: [Ch_MyCharacter_834] off
+[2017.03.10-13.51.13:771][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.51.13:805][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.52.28:132][398]BlueprintLog: New page: Compile BP_PickUpActor
+[2017.03.10-13.52.29:220][517]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.52.29:233][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.52.29:233][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.52.29:233][517]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:52:29 PM)
+[2017.03.10-13.52.29:234][517]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.52.29:253][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018892s)
+[2017.03.10-13.52.29:253][517]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.52.29:253][517]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2017.03.10-13.52.29:254][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019895s)
+[2017.03.10-13.52.29:278][517]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.52.29:283][517]LogInit: FAudioDevice initialized.
+[2017.03.10-13.52.29:317][517]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.52.29:320][517]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.52.29
+[2017.03.10-13.52.29:320][517]LogWorld: Bringing up level for play took: 0.002088
+[2017.03.10-13.52.29:323][517]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.701
+[2017.03.10-13.52.29:323][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.52.35:685][272]LogBlueprintUserMessages: [Ch_MyCharacter_834] Health potion 99
+[2017.03.10-13.52.36:368][354]LogBlueprintUserMessages: [Ch_MyCharacter_834] Health potion 1
+[2017.03.10-13.52.37:377][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.52.37:427][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.52.40:208][798]LogSavePackage: Save=21.41ms
+[2017.03.10-13.52.40:208][798]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActorF0A814EC437C249352DB818C604D0A87.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-13.52.40:209][798]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-13.52.41:921][988]LogSavePackage: Save=95.38ms
+[2017.03.10-13.52.41:921][988]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap3CD6C277426A0295FD3F1A8045862922.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.10-13.52.41:924][988]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.10-13.52.42:049][988]LogSavePackage: Save=101.30ms
+[2017.03.10-13.52.42:049][988]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_BuiltDataE816D4984AFD74F3A7160D92EC335534.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.10-13.52.42:050][988]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.10-13.58.02:146][344]BlueprintLog: New page: Compile BP_PickUpActor
+[2017.03.10-13.58.02:888][386]LogSavePackage: Save=24.56ms
+[2017.03.10-13.58.02:888][386]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActor1166EB9B4D20829614B9DF9DFB87D36D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-13.58.02:889][386]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-13.58.04:040][523]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-13.58.04:059][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.58.04:059][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-13.58.04:059][523]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 3:58:04 PM)
+[2017.03.10-13.58.04:060][523]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-13.58.04:078][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018674s)
+[2017.03.10-13.58.04:079][523]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-13.58.04:079][523]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2017.03.10-13.58.04:079][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019729s)
+[2017.03.10-13.58.04:102][523]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-13.58.04:108][523]LogInit: FAudioDevice initialized.
+[2017.03.10-13.58.04:143][523]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-13.58.04:146][523]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-14.58.04
+[2017.03.10-13.58.04:146][523]LogWorld: Bringing up level for play took: 0.002240
+[2017.03.10-13.58.04:148][523]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.474
+[2017.03.10-13.58.04:148][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.58.47:450][702]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-13.58.47:502][702]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-14.03.25:222][985]LogSavePackage: Save=100.24ms
+[2017.03.10-14.03.25:222][985]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_Auto8CDFBB31B4301350B09BF56A9B83E5747.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2017.03.10-14.03.25:222][985]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap
+[2017.03.10-14.03.25:223][985]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.131
+[2017.03.10-14.03.25:223][985]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.131
+[2017.03.10-14.05.54:177][542]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.03.10-14.05.55:301][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.10-14.05.55:433][600]LogSavePackage: Save=125.98ms
+[2017.03.10-14.05.55:433][600]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Ch_MyCharacterC670A6064EC5D08C731C9A9BCA371960.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.10-14.05.55:435][600]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.10-14.05.59:265][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.10-14.06.02:337][399]LogSavePackage: Save=21.36ms
+[2017.03.10-14.06.02:337][399]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/BP_PickUpActor528A623F438E9C4AC760A7A6A837D050.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.10-14.06.02:338][399]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.10-14.06.05:180][715]LogSavePackage: Save=92.62ms
+[2017.03.10-14.06.05:180][715]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap319DB5AE405C15BE84827EAECAD467E9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.10-14.06.05:182][715]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.10-14.06.05:314][715]LogSavePackage: Save=103.83ms
+[2017.03.10-14.06.05:314][715]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_BuiltData6B25765344A9AED3293E788A69F9C990.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.10-14.06.05:315][715]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.10-15.07.03:900][208]LogSavePackage: Save=198.57ms
+[2017.03.10-15.07.03:900][208]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMapAE638D704B91BEF66DD5CE8F02622845.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.10-15.07.03:902][208]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.10-15.07.04:249][208]LogSavePackage: Save=110.92ms
+[2017.03.10-15.07.04:249][208]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/ThirdPersonExampleMap_BuiltData63C6E0244745E52D2A056CAC334FA37F.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.10-15.07.04:250][208]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.10-15.07.08:128][671]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.10-15.07.08:176][671]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-15.07.08:176][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.10-15.07.08:176][671]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 10, 2017, 5:07:08 PM)
+[2017.03.10-15.07.08:177][671]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.10-15.07.08:229][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051349s)
+[2017.03.10-15.07.08:230][671]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.10-15.07.08:231][671]LogPlayLevel: PIE: World Init took: (0.001420s)
+[2017.03.10-15.07.08:231][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053110s)
+[2017.03.10-15.07.08:254][671]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.10-15.07.08:260][671]LogInit: FAudioDevice initialized.
+[2017.03.10-15.07.08:292][671]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.10-15.07.08:297][671]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.10-16.07.08
+[2017.03.10-15.07.08:297][671]LogWorld: Bringing up level for play took: 0.003598
+[2017.03.10-15.07.08:298][671]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.322
+[2017.03.10-15.07.08:299][671]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-15.07.18:693][915]LogBlueprintUserMessages: [Ch_MyCharacter_834] Health potion 99
+[2017.03.10-15.07.19:352][994]LogBlueprintUserMessages: [Ch_MyCharacter_834] Health potion 1
+[2017.03.10-15.07.22:686][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-15.07.22:728][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.10-15.07.23:148][442]Cmd: SELECT NONE
+[2017.03.10-15.19.28:853][522]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.19.29:408][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.19.29:420][568]LogSavePackage: Save=9.89ms
+[2017.03.10-15.19.29:420][568]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlotE9DAD82345A3ADFFC6A0B9A3F89F25AD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.19.29:423][568]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.22.54:942][795]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.22.56:266][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.22.56:284][936]LogSavePackage: Save=9.89ms
+[2017.03.10-15.22.56:284][936]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlot418896E046264F4EBA7EC19C591434D7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.22.56:286][936]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.24.20:287][640]LogClass:Warning: Type mismatch in Amount of SKEL_InventorySlot_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2017.03.10-15.24.25:899][311]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.24.26:485][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.24.26:497][369]LogSavePackage: Save=10.30ms
+[2017.03.10-15.24.26:497][369]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlotF77CC62F4AD1493E74A8EABF14BB0BD4.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.24.26:498][369]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.25.32:211][416]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.017
+[2017.03.10-15.25.32:213][416]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/InventorySlot] ([1] browsable assets)...
+[2017.03.10-15.25.32:213][416]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/InventorySlot]
+[2017.03.10-15.25.32:227][416]LogSavePackage: Save=11.96ms
+[2017.03.10-15.25.32:227][416]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlot_Auto9416A12A64ED7CC6443AF73B9A3942905.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Autosaves/Game/InventorySystem/Widgets/InventorySlot_Auto9.uasset'
+[2017.03.10-15.25.32:228][416]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Autosaves/Game/InventorySystem/Widgets/InventorySlot_Auto9.uasset
+[2017.03.10-15.25.32:228][416]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.03.10-15.30.31:294][751]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.30.31:889][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.30.31:912][809]LogSavePackage: Save=17.95ms
+[2017.03.10-15.30.31:912][809]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlotF18858C2433F018ABAD4DCA57C7206CA.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.30.31:913][809]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.35.33:089][330]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2017.03.10-15.35.33:090][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/InventorySlot] ([1] browsable assets)...
+[2017.03.10-15.35.33:090][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/InventorySlot]
+[2017.03.10-15.35.33:114][330]LogSavePackage: Save=18.41ms
+[2017.03.10-15.35.33:114][330]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlot_Auto0DD1300124C9AB845CF2D768FD06F0D37.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Autosaves/Game/InventorySystem/Widgets/InventorySlot_Auto0.uasset'
+[2017.03.10-15.35.33:115][330]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/Autosaves/Game/InventorySystem/Widgets/InventorySlot_Auto0.uasset
+[2017.03.10-15.35.33:115][330]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.03.10-15.38.43:308][313]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.38.43:910][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.38.43:934][373]LogSavePackage: Save=22.32ms
+[2017.03.10-15.38.43:934][373]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlot41782D1A496588A2938CF9B71DD5CD71.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.38.43:936][373]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.39.40:718][474]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.39.41:446][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.39.41:469][547]LogSavePackage: Save=20.97ms
+[2017.03.10-15.39.41:469][547]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlot9A1716EC4D433BC5B2C78AA1C1CE6EC2.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.39.41:471][547]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.42.14:997][276]BlueprintLog: New page: Compile InventorySlot
+[2017.03.10-15.42.15:543][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/InventorySlot" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset" SILENT=true
+[2017.03.10-15.42.15:721][327]LogSavePackage: Save=171.37ms
+[2017.03.10-15.42.15:721][327]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Saved/InventorySlot45964F724BFD3F7BF96FF3A339995DC6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset'
+[2017.03.10-15.42.15:724][327]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife/Content/InventorySystem/Widgets/InventorySlot.uasset
+[2017.03.10-15.42.36:025][341]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
