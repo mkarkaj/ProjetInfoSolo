@@ -1,0 +1,1154 @@
+﻿Log file open, 03/18/17 09:06:19
+LogInit:Display: Running engine for game: IsekaiLife
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1418695445) SRandInit(1418695445).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079810
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.18-08.06.20:128][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.18-08.06.20:128][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.18-08.06.20:162][  0]LogInit: Computer: DESKTOP-IJKOIIJ
+[2017.03.18-08.06.20:162][  0]LogInit: User: Aratim
+[2017.03.18-08.06.20:162][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.18-08.06.20:162][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2017.03.18-08.06.20:162][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.03.18-08.06.20:162][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.18-08.06.20:162][  0]LogMemory: Process Physical Memory: 262.68 MB used, 262.68 MB peak
+[2017.03.18-08.06.20:162][  0]LogMemory: Process Virtual Memory: 262.41 MB used, 262.41 MB peak
+[2017.03.18-08.06.20:162][  0]LogMemory: Physical Memory: 3947.52 MB used,  4193.33 MB free, 8140.85 MB total
+[2017.03.18-08.06.20:162][  0]LogMemory: Virtual Memory: 643.54 MB used,  4193.33 MB free, 134217728.00 MB total
+[2017.03.18-08.06.20:239][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.18-08.06.20:867][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.18-08.06.21:383][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.03.18-08.06.21:383][  0]LogD3D11RHI:       6084/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.18-08.06.21:384][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.18-08.06.21:384][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.18-08.06.21:384][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.18-08.06.21:387][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.18-08.06.21:387][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.18-08.06.21:387][  0]LogWindows: EnumDisplayDevices:
+[2017.03.18-08.06.21:388][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.03.18-08.06.21:388][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.03.18-08.06.21:388][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.03.18-08.06.21:388][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.03.18-08.06.21:388][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.18-08.06.21:388][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.03.18-08.06.21:388][  0]LogD3D11RHI:   Driver Version: 378.78 (internal:21.21.13.7878, unified:378.78)
+[2017.03.18-08.06.21:388][  0]LogD3D11RHI:      Driver Date: 2-23-2017
+[2017.03.18-08.06.21:388][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.18-08.06.21:867][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.18-08.06.21:892][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.18-08.06.21:941][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Intermediate/Shaders/WorkingDirectory/8552/).
+[2017.03.18-08.06.21:941][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aratim/AppData/Local/Temp/UnrealShaderWorkingDir/0CFC042149B25E710F31389B6A5385AB/'.
+[2017.03.18-08.06.21:941][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.18-08.06.22:888][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.18-08.06.22:938][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.18-08.06.22:987][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.18-08.06.23:037][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.18-08.06.23:087][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.18-08.06.23:137][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.18-08.06.23:187][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.18-08.06.23:236][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.18-08.06.23:278][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.18-08.06.23:324][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.18-08.06.23:374][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.18-08.06.23:421][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.18-08.06.23:468][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.18-08.06.23:516][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.18-08.06.23:563][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.18-08.06.23:659][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.18-08.06.23:659][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.18-08.06.23:693][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.18-08.06.23:782][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.18-08.06.23:814][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.18-08.06.23:863][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.18-08.06.23:911][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.18-08.06.23:958][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.18-08.06.24:007][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.18-08.06.24:007][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.18-08.06.24:407][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.18-08.06.24:461][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.18-08.06.24:462][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.18-08.06.24:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.18-08.06.24:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.18-08.06.24:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.18-08.06.24:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.18-08.06.24:480][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.18-08.06.24:492][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aratim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.18-08.06.24:501][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.18-08.06.24:501][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.18-08.06.24:501][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.18-08.06.24:723][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.18-08.06.24:725][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.18-08.06.24:908][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.18-08.06.24:945][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.18-08.06.24:988][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.18-08.06.24:988][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.18-08.06.24:988][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.18-08.06.25:476][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: isekailife, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 721096836
+[2017.03.18-08.06.25:520][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.03.18-08.06.25:551][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011431 seconds
+[2017.03.18-08.06.25:558][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.18-08.06.25:558][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.18-08.06.25:558][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.18-08.06.25:615][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.18-08.06.27:035][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.18-08.06.27:075][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.18-08.06.27:484][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.18-08.06.27:821][  0]SourceControl: Info Source control is disabled
+[2017.03.18-08.06.27:822][  0]SourceControl: Info Source control is disabled
+[2017.03.18-08.06.27:865][  0]SourceControl: Info Source control is disabled
+[2017.03.18-08.06.27:908][  0]SourceControl: Info Source control is disabled
+[2017.03.18-08.06.29:051][  0]LogEngine: Initializing Engine...
+[2017.03.18-08.06.29:051][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.18-08.06.29:265][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.18-08.06.29:274][  0]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-08.06.29:282][  0]LogInit: FAudioDevice initialized.
+[2017.03.18-08.06.29:312][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.18-08.06.29:322][  0]LogInit: Texture streaming: Enabled
+[2017.03.18-08.06.29:409][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.18-08.06.29:490][  0]LogInit: Transaction tracking system initialized
+[2017.03.18-08.06.29:804][  0]BlueprintLog: New page: Editor Load
+[2017.03.18-08.06.30:609][  0]LocalizationService: Info Localization service is disabled
+[2017.03.18-08.06.31:206][  0]LogConsoleResponse:Display: 
+[2017.03.18-08.06.31:345][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.18-08.06.31:345][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.18-08.06.32:029][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/' took 0.02s
+[2017.03.18-08.06.32:291][  0]SourceControl: Info Source control is disabled
+[2017.03.18-08.06.32:291][  0]Cmd: MAP LOAD FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.18-08.06.32:291][  0]LightingResults: New page: Lighting Build
+[2017.03.18-08.06.32:327][  0]MapCheck: New page: Map Check
+[2017.03.18-08.06.32:327][  0]LightingResults: New page: Lighting Build
+[2017.03.18-08.06.35:356][  0]LogClass:Warning: Enum '/Game/InventorySystem/Blueprints/Enums/E_ItemCategories.E_ItemCategories' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2017.03.18-08.06.35:601][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-08.06.35:623][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.18-08.06.35:624][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.18-08.06.35:665][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.643ms to complete.
+[2017.03.18-08.06.35:665][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.374
+[2017.03.18-08.06.35:720][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.18-08.06.35:869][  0]LogCollectionManager: Loaded 0 collections in 0.001670 seconds
+[2017.03.18-08.06.35:960][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Collections/' took 0.01s
+[2017.03.18-08.06.35:960][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Developers/Aratim/Collections/' took 0.01s
+[2017.03.18-08.06.35:960][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Collections/' took 0.01s
+[2017.03.18-08.06.35:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000012 seconds
+[2017.03.18-08.06.35:972][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2244 classes and 450 folders.
+[2017.03.18-08.06.35:978][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.18-08.06.35:979][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.18-08.06.36:036][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.03.18-08.06.36:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.03.18-08.06.36:393][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.03.18-08.06.36:483][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.18-08.06.36:493][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.18-08.06.36:556][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.03.18-08.06.36:557][  0]LogLoad: (Engine Initialization) Total time: 18.54 seconds
+[2017.03.18-08.06.36:557][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.03.18-08.06.36:557][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.18-08.06.36:557][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.18-08.06.36:566][  0]LogOcInput: OculusInput pre-init called
+[2017.03.18-08.06.36:589][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.18-08.06.36:590][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.18-08.06.36:593][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.18-08.06.36:605][  0]LogSlate: Took 0.005454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.18-08.06.36:788][  0]LogSlate: Took 0.004565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.18-08.06.36:819][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.03.18-08.06.36:901][  1]LogAssetRegistry: Asset discovery search completed in 11.4028 seconds
+[2017.03.18-08.06.36:901][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.03.18-08.06.36:901][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.03.18-08.06.37:582][ 74]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.18-09.03.04:366][945]LogSlate: Took 0.000504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.18-09.03.04:921][945]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2017.03.18-09.03.05:773][945]LogSlate: Took 0.003989 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.03.18-09.04.56:761][939]LogSlate: Took 0.018347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.03.18-09.06.30:130][425]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2017.03.18-09.09.51:959][328]LogEditorTransaction: Undo Variable Toggle
+[2017.03.18-09.09.52:474][388]LogEditorTransaction: Undo Rename Widget
+[2017.03.18-09.12.05:012][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.051
+[2017.03.18-09.12.05:016][158]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/ObtainedItem] ([1] browsable assets)...
+[2017.03.18-09.12.05:016][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/ObtainedItem]
+[2017.03.18-09.12.05:032][158]LogSavePackage: Save=14.38ms
+[2017.03.18-09.12.05:032][158]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItem_Auto1BE4F942F40B42C070A9993B502BEEDAC.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ObtainedItem_Auto1.uasset'
+[2017.03.18-09.12.05:274][158]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ObtainedItem_Auto1.uasset
+[2017.03.18-09.12.05:277][158]LogFileHelpers: Auto-saving content packages took 0.264
+[2017.03.18-09.15.50:595][842]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-09.15.51:220][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-09.15.51:237][894]LogSavePackage: Save=15.41ms
+[2017.03.18-09.15.51:237][894]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItemD7DF67944FE34D7A877608BEC488F688.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-09.15.51:240][894]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-09.16.36:056][875]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-09.16.36:551][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-09.16.36:696][914]LogSavePackage: Save=32.57ms
+[2017.03.18-09.16.36:696][914]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItem96F2C0234E1D90FFB9AC9B92DD815772.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-09.16.36:698][914]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-09.18.46:549][262]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-09.18.47:360][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-09.18.47:376][340]LogSavePackage: Save=13.89ms
+[2017.03.18-09.18.47:376][340]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItemDBAE66554E0361050A002EB68FED79DD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-09.18.47:380][340]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-09.19.33:729][977]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-09.19.34:306][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-09.19.34:322][ 26]LogSavePackage: Save=13.90ms
+[2017.03.18-09.19.34:322][ 26]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItemD83C050C41B644E2B1B117A23AF387F2.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-09.19.34:323][ 26]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-09.19.48:824][ 54]LogSlate: Took 0.003564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.03.18-09.21.06:602][599]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-09.21.06:989][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-09.21.07:008][631]LogSavePackage: Save=17.00ms
+[2017.03.18-09.21.07:008][631]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItemF2034A0749D4DA31F2222C875C562397.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-09.21.07:009][631]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-09.21.19:170][892]LogSlate: Took 0.003821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.03.18-09.24.00:319][708]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.014
+[2017.03.18-09.24.00:321][708]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/ObtainedItem] ([1] browsable assets)...
+[2017.03.18-09.24.00:321][708]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/ObtainedItem]
+[2017.03.18-09.24.00:347][708]LogSavePackage: Save=21.91ms
+[2017.03.18-09.24.00:347][708]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItem_Auto2CEA3286A4F0DB425314D00B757C54A7F.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ObtainedItem_Auto2.uasset'
+[2017.03.18-09.24.00:348][708]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ObtainedItem_Auto2.uasset
+[2017.03.18-09.24.00:348][708]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.03.18-09.31.54:072][443]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-09.31.54:481][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-09.31.54:767][477]LogSavePackage: Save=278.23ms
+[2017.03.18-09.31.54:767][477]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItemB8631A8546F080ADF105208B9B1EDCD6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-09.31.54:768][477]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-09.36.05:482][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2017.03.18-09.36.05:483][ 10]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/MainWidget] ([1] browsable assets)...
+[2017.03.18-09.36.05:483][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/MainWidget]
+[2017.03.18-09.36.05:516][ 10]LogSavePackage: Save=26.69ms
+[2017.03.18-09.36.05:516][ 10]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidget_Auto354F4D4FB40EF6285B93676ADFA328A51.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/MainWidget_Auto3.uasset'
+[2017.03.18-09.36.05:516][ 10]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/MainWidget_Auto3.uasset
+[2017.03.18-09.36.05:516][ 10]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.03.18-09.55.29:565][728]BlueprintLog: New page: Compile MainWidget
+[2017.03.18-09.55.30:585][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/MainWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset" SILENT=true
+[2017.03.18-09.55.30:617][820]LogSavePackage: Save=26.69ms
+[2017.03.18-09.55.30:617][820]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidgetB4165B68470BFB95113FDAB738C6E984.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset'
+[2017.03.18-09.55.30:846][820]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset
+[2017.03.18-09.59.52:520][753]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.019
+[2017.03.18-09.59.52:521][753]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/MainWidget] ([1] browsable assets)...
+[2017.03.18-09.59.52:521][753]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/MainWidget]
+[2017.03.18-09.59.52:554][753]LogSavePackage: Save=30.25ms
+[2017.03.18-09.59.52:554][753]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidget_Auto48CEF07D849304F7C0538A3BCC99996D7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/MainWidget_Auto4.uasset'
+[2017.03.18-09.59.52:554][753]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/MainWidget_Auto4.uasset
+[2017.03.18-09.59.52:554][753]LogFileHelpers: Auto-saving content packages took 0.033
+[2017.03.18-10.00.17:935][795]SourceControl: Info Source control is disabled
+[2017.03.18-10.00.18:724][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:782][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:808][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:815][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:817][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:823][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:825][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:827][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:837][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:839][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:841][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:842][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:845][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:855][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:856][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:859][795]LogSavePackage: Save=148.01ms
+[2017.03.18-10.00.18:860][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:860][795]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_LightStudio91F745C24E38A5F0D02493B399E176AE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.03.18-10.00.18:862][795]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.18:863][795]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.03.18-10.00.19:096][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:102][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:108][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:111][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:113][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:115][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:116][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:118][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:125][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:126][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:128][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:129][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:131][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:133][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:134][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:138][796]LogSavePackage: Save=61.42ms
+[2017.03.18-10.00.19:138][796]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_CeilingLight169D76B04A1FBF365C5D3986763938F9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.03.18-10.00.19:140][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:142][796]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:142][796]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.03.18-10.00.19:788][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:792][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:798][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:801][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:805][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:808][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:811][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:814][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:824][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:827][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:830][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:832][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:835][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:838][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:842][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:846][797]LogSavePackage: Save=79.76ms
+[2017.03.18-10.00.19:847][797]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_Effect_ExplosionB660636F4BF547E6D4EF01B68A3FA662.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.03.18-10.00.19:849][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:850][797]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.19:851][797]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.03.18-10.00.20:049][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:074][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:079][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:080][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:082][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:084][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:086][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:088][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:094][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:096][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:098][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:100][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:102][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:104][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:106][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:110][798]LogSavePackage: Save=82.04ms
+[2017.03.18-10.00.20:111][798]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_Effect_Fire2EB38B6F4454998765C3FBA07B23A0DE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.03.18-10.00.20:113][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:115][798]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:115][798]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.03.18-10.00.20:316][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:320][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:325][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:327][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:329][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:331][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:332][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:335][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:341][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:343][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:344][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:346][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:348][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:349][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:351][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:355][799]LogSavePackage: Save=59.72ms
+[2017.03.18-10.00.20:356][799]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_Effect_Smoke272D9F5D45AFBD041F0F678E4AEC06A9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.03.18-10.00.20:357][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:359][799]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:359][799]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.03.18-10.00.20:538][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:542][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:548][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:551][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:554][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:557][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:560][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:563][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:570][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:572][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:573][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:575][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:578][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:580][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:581][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:586][800]LogSavePackage: Save=81.69ms
+[2017.03.18-10.00.20:586][800]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_Effect_SparksA438EDCC480F606279ECD5B5C264E285.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.03.18-10.00.20:588][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:591][800]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:591][800]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.03.18-10.00.20:774][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:776][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:779][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:781][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:782][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:783][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:784][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:785][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:790][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:791][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:792][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:793][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:795][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:796][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:798][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:801][801]LogSavePackage: Save=48.34ms
+[2017.03.18-10.00.20:801][801]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_Effect_Steam0654B9874AC672B2DE9490942A466272.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.03.18-10.00.20:803][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:805][801]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:805][801]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.03.18-10.00.20:869][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:891][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:895][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:897][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:899][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:900][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:902][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:903][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:907][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:909][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:910][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:911][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:913][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:914][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:916][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:919][802]LogSavePackage: Save=57.24ms
+[2017.03.18-10.00.20:919][802]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Blueprint_WallSconce1F88E359434A7084580BE2A837ADA050.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.03.18-10.00.20:921][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:923][802]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2017.03.18-10.00.20:923][802]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.03.18-10.00.53:321][244]BlueprintLog: New page: Compile MainWidget
+[2017.03.18-10.00.53:345][244]LogBlueprint:Error: [Compiler MainWidget] Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.03.18-10.00.53:607][244]BlueprintEditorCompileResults:Error: Error The current value of the ' Target Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2017.03.18-10.00.53:608][244]LogBlueprint:Warning: [Compiler MainWidget] Warning [6875.59] Compile of MainWidget failed. 1 Fatal Issue(s) 0 Warning(s) [in 287 ms] (/Game/InventorySystem/Widgets/MainWidget.MainWidget)
+[2017.03.18-10.09.05:977][383]LogEditorTransaction: Undo Create Pin Link
+[2017.03.18-10.09.06:907][494]LogEditorTransaction: Undo Add Node
+[2017.03.18-10.09.07:332][540]LogEditorTransaction: Undo Delete current selection
+[2017.03.18-10.09.08:031][618]LogEditorTransaction: Undo Move Node
+[2017.03.18-10.09.09:375][774]LogEditorTransaction: Redo Move Node
+[2017.03.18-10.10.11:061][220]BlueprintLog: New page: Compile MainWidget
+[2017.03.18-10.10.11:856][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/MainWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset" SILENT=true
+[2017.03.18-10.10.11:900][283]LogSavePackage: Save=38.40ms
+[2017.03.18-10.10.11:900][283]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidget9E4C5CDB436A673CC1DC259B186C1669.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset'
+[2017.03.18-10.10.11:902][283]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset
+[2017.03.18-10.10.55:988][222]BlueprintLog: New page: Compile ObtainedItem
+[2017.03.18-10.10.59:323][605]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-10.10.59:358][605]LogSavePackage: Save=29.62ms
+[2017.03.18-10.10.59:358][605]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItem4478024E4B6FEE58FB54C493A8C83D74.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-10.10.59:360][605]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-10.13.18:049][648]BlueprintLog: New page: Compile BP_Inventory
+[2017.03.18-10.13.19:116][648]LogSavePackage: Save=241.49ms
+[2017.03.18-10.13.19:116][648]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory216B415C4DE34755F75EE989615A0F93.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.13.19:118][648]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.15.05:538][643]LogEditorTransaction: Undo Add Out Parameter
+[2017.03.18-10.17.35:878][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.040
+[2017.03.18-10.17.35:880][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Blueprints/BP_Inventory] ([1] browsable assets)...
+[2017.03.18-10.17.35:880][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Blueprints/BP_Inventory]
+[2017.03.18-10.17.36:048][689]LogSavePackage: Save=166.29ms
+[2017.03.18-10.17.36:048][689]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory_Auto5046B37F844C6517047CD10936F543551.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_Inventory_Auto5.uasset'
+[2017.03.18-10.17.36:188][689]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_Inventory_Auto5.uasset
+[2017.03.18-10.17.36:190][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/ObtainedItem] ([1] browsable assets)...
+[2017.03.18-10.17.36:190][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/ObtainedItem]
+[2017.03.18-10.17.36:274][689]LogSavePackage: Save=64.34ms
+[2017.03.18-10.17.36:274][689]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItem_Auto5BB8834924D6096759B256586D1EE5666.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ObtainedItem_Auto5.uasset'
+[2017.03.18-10.17.36:275][689]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ObtainedItem_Auto5.uasset
+[2017.03.18-10.17.36:275][689]LogFileHelpers: Auto-saving content packages took 0.396
+[2017.03.18-10.18.22:839][704]BlueprintLog: New page: Compile BP_Inventory
+[2017.03.18-10.18.24:029][740]LogSavePackage: Save=194.40ms
+[2017.03.18-10.18.24:030][740]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory29C5C45C47FB2D7A6DF9AF80773708F3.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.18.24:034][740]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.20.06:315][191]BlueprintLog: New page: Compile BP_Inventory
+[2017.03.18-10.20.06:730][191]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  True
+[2017.03.18-10.20.06:964][192]LogSavePackage: Save=164.76ms
+[2017.03.18-10.20.06:965][192]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory828C527D4247831015C147B7E34061BF.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.20.06:966][192]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.22.07:001][670]BlueprintLog: New page: Compile BP_Inventory
+[2017.03.18-10.22.08:010][729]LogSavePackage: Save=170.08ms
+[2017.03.18-10.22.08:010][729]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_InventoryEEE8DEE547CAE511FF98BC828958D758.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.22.08:012][729]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.24.13:822][893]BlueprintLog: New page: Compile BP_Inventory
+[2017.03.18-10.24.14:576][924]LogSavePackage: Save=171.30ms
+[2017.03.18-10.24.14:576][924]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory61BFF93246089C088EAEA39FCD7FC6D2.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.24.14:578][924]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.27.43:902][167]LogEditorTransaction: Undo Create Pin Link
+[2017.03.18-10.27.44:250][184]LogEditorTransaction: Undo Move Nodes
+[2017.03.18-10.27.44:934][245]LogEditorTransaction: Undo Move Node
+[2017.03.18-10.27.45:648][310]LogEditorTransaction: Undo Break Pin Links
+[2017.03.18-10.27.46:228][358]LogEditorTransaction: Undo Break Pin Links
+[2017.03.18-10.27.46:766][402]LogEditorTransaction: Undo Break Pin Links
+[2017.03.18-10.27.47:296][445]LogEditorTransaction: Undo Move Nodes
+[2017.03.18-10.29.25:798][970]BlueprintLog: New page: Compile BP_Inventory
+[2017.03.18-10.29.26:720][ 14]LogSavePackage: Save=205.33ms
+[2017.03.18-10.29.26:720][ 14]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory0E94EC1A4301B20EAECDE89EBF2FF7BE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.29.26:722][ 14]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.29.45:740][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/ObtainedItem" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset" SILENT=true
+[2017.03.18-10.29.45:774][484]LogSavePackage: Save=29.01ms
+[2017.03.18-10.29.45:774][484]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ObtainedItem009A9AB947D5E7C73CA5C283C452A17A.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset'
+[2017.03.18-10.29.45:775][484]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/ObtainedItem.uasset
+[2017.03.18-10.30.47:079][416]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.03.18-10.30.47:686][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.03.18-10.30.47:737][456]LogSavePackage: Save=45.11ms
+[2017.03.18-10.30.47:737][456]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter066209AB42CB4FB40A1C31AC557B7AB6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.03.18-10.30.47:738][456]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.03.18-10.31.17:654][930]BlueprintLog: New page: Compile BP_PickUpActor
+[2017.03.18-10.31.18:236][973]LogSavePackage: Save=23.53ms
+[2017.03.18-10.31.18:236][973]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_PickUpActorC43520AA4D5A724D07354B887C906C97.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset'
+[2017.03.18-10.31.18:237][973]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_PickUpActor.uasset
+[2017.03.18-10.31.22:932][185]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.18-10.31.22:950][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.31.23:023][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.18-10.31.23:029][185]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2017, 12:31:23 PM)
+[2017.03.18-10.31.23:030][185]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.18-10.31.23:085][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055202s)
+[2017.03.18-10.31.23:086][185]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-10.31.23:086][185]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2017.03.18-10.31.23:087][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.057138s)
+[2017.03.18-10.31.23:117][185]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-10.31.23:123][185]LogInit: FAudioDevice initialized.
+[2017.03.18-10.31.23:288][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.03.18-10.31.23:295][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [8705.28] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 16 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.03.18-10.31.23:295][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [8705.28] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.03.18-10.31.23:295][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [8705.28] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.03.18-10.31.23:301][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.03.18-10.31.23:304][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [8705.29] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 7 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.03.18-10.31.23:305][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [8705.29] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.03.18-10.31.23:305][185]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [8705.29] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.03.18-10.31.23:317][185]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.18-10.31.23:320][185]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.18-11.31.23
+[2017.03.18-10.31.23:322][185]LogWorld: Bringing up level for play took: 0.004230
+[2017.03.18-10.31.23:377][185]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.03.18-10.31.23:397][185]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.167
+[2017.03.18-10.31.23:398][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.31.23:427][185]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:9635).
+[2017.03.18-10.31.25:888][465]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_31
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.31.25:888][465]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.31.25:888][465]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_31
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.31.25:888][465]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.31.25:888][465]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_31
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.31.25:888][465]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.31.25:888][465]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_31
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.31.25:888][465]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.31.25:888][465]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_31
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.31.25:888][465]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.31.25:888][465]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_31
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.31.25:889][465]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.31.32:957][311]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_32
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.31.32:957][311]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.31.32:957][311]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_32
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.31.32:957][311]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.31.32:957][311]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_32
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.31.32:957][311]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.31.32:957][311]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_32
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.31.32:957][311]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.31.32:957][311]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_32
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.31.32:957][311]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.31.32:957][311]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.ObtainedItem_C_32
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.31.32:957][311]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.31.35:728][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.31.35:783][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.32.50:961][799]LogSavePackage: Save=127.01ms
+[2017.03.18-10.32.50:961][799]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto6EB3E87FB42566C20C6DAC6BB441850CD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2017.03.18-10.32.50:961][799]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2017.03.18-10.32.50:965][799]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.169
+[2017.03.18-10.32.50:965][799]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2017.03.18-10.33.45:338][464]BlueprintLog: New page: Compile MainWidget
+[2017.03.18-10.33.46:458][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InventorySystem/Widgets/MainWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset" SILENT=true
+[2017.03.18-10.33.46:502][567]LogSavePackage: Save=39.09ms
+[2017.03.18-10.33.46:502][567]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidgetCA8294434E3363F4EE5C5E892C742069.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset'
+[2017.03.18-10.33.46:503][567]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Widgets/MainWidget.uasset
+[2017.03.18-10.33.47:214][652]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.18-10.33.47:245][652]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.33.47:245][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.18-10.33.47:245][652]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2017, 12:33:47 PM)
+[2017.03.18-10.33.47:245][652]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.18-10.33.47:267][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021677s)
+[2017.03.18-10.33.47:268][652]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-10.33.47:268][652]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2017.03.18-10.33.47:268][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022854s)
+[2017.03.18-10.33.47:297][652]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-10.33.47:303][652]LogInit: FAudioDevice initialized.
+[2017.03.18-10.33.47:336][652]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.18-10.33.47:338][652]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.18-11.33.47
+[2017.03.18-10.33.47:339][652]LogWorld: Bringing up level for play took: 0.001778
+[2017.03.18-10.33.47:350][652]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.121
+[2017.03.18-10.33.47:351][652]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.33.48:873][815]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.ObtainedItem_C_38
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.33.48:873][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.33.48:873][815]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.ObtainedItem_C_38
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.33.48:874][815]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.33.48:874][815]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.ObtainedItem_C_38
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.33.48:874][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.33.48:874][815]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.ObtainedItem_C_38
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.33.48:874][815]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.33.48:874][815]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.ObtainedItem_C_38
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.33.48:874][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.33.48:874][815]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.ObtainedItem_C_38
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.33.48:874][815]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.33.53:439][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.33.53:487][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.35.47:038][102]LogSavePackage: Save=173.80ms
+[2017.03.18-10.35.47:038][102]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory53F0750A41A55E223F3999920BA41B5B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset'
+[2017.03.18-10.35.47:039][102]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InventorySystem/Blueprints/BP_Inventory.uasset
+[2017.03.18-10.35.48:677][267]LogSavePackage: Save=126.09ms
+[2017.03.18-10.35.48:677][267]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap22A8D5604576EDFA961D32820C85D4A6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.18-10.35.48:680][267]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.18-10.35.49:234][267]LogSavePackage: Save=317.23ms
+[2017.03.18-10.35.49:234][267]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_BuiltData185B6EFE467832A64EB17493B5A60048.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.03.18-10.35.49:235][267]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.03.18-10.35.50:801][450]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.18-10.35.50:827][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.35.50:827][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.18-10.35.50:827][450]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2017, 12:35:50 PM)
+[2017.03.18-10.35.50:827][450]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.18-10.35.50:849][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021765s)
+[2017.03.18-10.35.50:850][450]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-10.35.50:850][450]LogPlayLevel: PIE: World Init took: (0.001317s)
+[2017.03.18-10.35.50:850][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023352s)
+[2017.03.18-10.35.50:891][450]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-10.35.50:897][450]LogInit: FAudioDevice initialized.
+[2017.03.18-10.35.50:958][450]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.18-10.35.50:964][450]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.18-11.35.50
+[2017.03.18-10.35.50:964][450]LogWorld: Bringing up level for play took: 0.004033
+[2017.03.18-10.35.50:994][450]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.236
+[2017.03.18-10.35.50:995][450]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.35.53:184][695]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.ObtainedItem_C_43
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.35.53:184][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.35.53:184][695]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.ObtainedItem_C_43
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.35.53:184][695]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.35.53:184][695]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.ObtainedItem_C_43
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.35.53:184][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.35.53:184][695]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.ObtainedItem_C_43
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.35.53:184][695]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.35.53:184][695]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.ObtainedItem_C_43
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.35.53:184][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.35.53:184][695]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.ObtainedItem_C_43
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.35.53:184][695]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.35.55:380][958]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.35.55:453][958]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.38.54:354][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.18-10.38.56:020][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.18-10.38.56:949][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.03.18-10.39.43:969][268]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.18-10.39.43:985][268]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.39.43:985][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.18-10.39.43:985][268]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2017, 12:39:43 PM)
+[2017.03.18-10.39.43:985][268]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.18-10.39.44:005][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020213s)
+[2017.03.18-10.39.44:006][268]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-10.39.44:006][268]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2017.03.18-10.39.44:006][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021649s)
+[2017.03.18-10.39.44:038][268]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-10.39.44:044][268]LogInit: FAudioDevice initialized.
+[2017.03.18-10.39.44:073][268]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.18-10.39.44:076][268]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.18-11.39.44
+[2017.03.18-10.39.44:076][268]LogWorld: Bringing up level for play took: 0.002071
+[2017.03.18-10.39.44:086][268]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.856
+[2017.03.18-10.39.44:086][268]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.39.48:679][815]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_46
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.39.48:679][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.39.48:679][815]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_46
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.39.48:679][815]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.39.48:679][815]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_46
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.39.48:679][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.39.48:679][815]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_46
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.39.48:679][815]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.39.48:679][815]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_46
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.39.48:679][815]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.39.48:679][815]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_46
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.39.48:679][815]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.39.58:856][ 35]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_47
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.39.58:857][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.39.58:857][ 35]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_47
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.39.58:857][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.39.58:857][ 35]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_47
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.39.58:857][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.39.58:857][ 35]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_47
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.39.58:857][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.39.58:857][ 35]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_47
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.39.58:857][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.39.58:857][ 35]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.ObtainedItem_C_47
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.39.58:857][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.40.18:231][359]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.40.18:265][359]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.40.19:335][480]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.18-10.40.19:347][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.40.19:348][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.18-10.40.19:348][480]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2017, 12:40:19 PM)
+[2017.03.18-10.40.19:348][480]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.18-10.40.19:369][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021738s)
+[2017.03.18-10.40.19:371][480]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-10.40.19:371][480]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2017.03.18-10.40.19:371][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023319s)
+[2017.03.18-10.40.19:396][480]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-10.40.19:401][480]LogInit: FAudioDevice initialized.
+[2017.03.18-10.40.19:433][480]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.18-10.40.19:436][480]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.18-11.40.19
+[2017.03.18-10.40.19:436][480]LogWorld: Bringing up level for play took: 0.001925
+[2017.03.18-10.40.19:446][480]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.216
+[2017.03.18-10.40.19:446][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.40.21:376][708]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_50
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.40.21:376][708]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.40.21:376][708]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_50
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.40.21:376][708]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.40.21:376][708]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_50
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.40.21:376][708]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.40.21:376][708]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_50
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.40.21:376][708]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.40.21:376][708]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_50
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.40.21:376][708]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.40.21:376][708]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_50
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.40.21:376][708]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.40.23:792][998]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_51
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.40.23:792][998]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.40.23:793][998]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_51
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.40.23:793][998]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.40.23:793][998]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_51
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.40.23:793][998]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.40.23:793][998]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_51
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.40.23:793][998]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.40.23:793][998]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_51
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.40.23:793][998]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.40.23:793][998]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.ObtainedItem_C_51
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.40.23:793][998]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.40.35:059][350]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.40.35:092][350]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.43.19:120][963]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpActor_C (BP_PickUpActor)
+[2017.03.18-10.43.20:574][130]Cmd: DELETE
+[2017.03.18-10.43.20:574][130]Cmd: ACTOR DELETE
+[2017.03.18-10.43.20:579][130]LogEditorActor: Deleted Actor: BP_PickUpActor_C
+[2017.03.18-10.43.20:594][130]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.03.18-10.43.22:777][391]LogEditorViewport: Clicking on Actor (LMB): BP_PickUpActor_C (BP_PickUpActor2)
+[2017.03.18-10.43.23:087][424]Cmd: DELETE
+[2017.03.18-10.43.23:087][424]Cmd: ACTOR DELETE
+[2017.03.18-10.43.23:088][424]LogEditorActor: Deleted Actor: BP_PickUpActor_C
+[2017.03.18-10.43.23:101][424]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.03.18-10.43.31:189][373]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.18-10.43.38:565][253]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.18-10.43.38:577][253]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.43.38:578][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.18-10.43.38:578][253]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 18, 2017, 12:43:38 PM)
+[2017.03.18-10.43.38:578][253]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.03.18-10.43.38:600][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022560s)
+[2017.03.18-10.43.38:601][253]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.03.18-10.43.38:601][253]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2017.03.18-10.43.38:601][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023732s)
+[2017.03.18-10.43.38:624][253]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.18-10.43.38:629][253]LogInit: FAudioDevice initialized.
+[2017.03.18-10.43.38:659][253]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.03.18-10.43.38:661][253]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.03.18-11.43.38
+[2017.03.18-10.43.38:661][253]LogWorld: Bringing up level for play took: 0.001823
+[2017.03.18-10.43.38:671][253]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.559
+[2017.03.18-10.43.38:671][253]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.43.39:990][408]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.ObtainedItem_C_56
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0181
+[2017.03.18-10.43.39:990][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.43.39:990][408]LogScript:Warning: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.ObtainedItem_C_56
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:0196
+[2017.03.18-10.43.39:990][408]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Brush from Texture in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Icon_17_D48BAE4F4B054FFF1D73A68973AAFD19
+[2017.03.18-10.43.39:990][408]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.ObtainedItem_C_56
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01D0
+[2017.03.18-10.43.39:990][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.43.39:990][408]LogScript:Warning: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.ObtainedItem_C_56
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:01E5
+[2017.03.18-10.43.39:990][408]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2 from function: 'ExecuteUbergraph_ObtainedItem' from node: SetText (Text) in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Name_14_7C96DCD44A014B076F2485A661FAF2C2
+[2017.03.18-10.43.39:990][408]LogScript:Warning: Accessed None trying to read Class from property ItemClass
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.ObtainedItem_C_56
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03BF
+[2017.03.18-10.43.39:990][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read Class from property ItemClass from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None trying to read Class from property ItemClass
+[2017.03.18-10.43.39:990][408]LogScript:Warning: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+	ObtainedItem_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.ObtainedItem_C_56
+	Function /Game/InventorySystem/Widgets/ObtainedItem.ObtainedItem_C:ExecuteUbergraph_ObtainedItem:03D4
+[2017.03.18-10.43.39:990][408]PIE:Error: Error Blueprint Runtime Error: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75 from function: 'ExecuteUbergraph_ObtainedItem' from node: Set Color and Opacity in graph: EventGraph in object: ObtainedItem with description: Accessed None reading structure Category_18_32F56AED4D621ECADA5E9C86F3B75A75
+[2017.03.18-10.43.40:864][513]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.43.40:904][513]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.03.18-10.43.41:311][551]Cmd: SELECT NONE
+[2017.03.18-10.43.46:684][700]LogSavePackage: Save=110.00ms
+[2017.03.18-10.43.46:684][700]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap19703E514EF08A415DB13282D4DD10FE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.03.18-10.43.46:688][700]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.03.18-10.43.46:706][700]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.211
+[2017.03.18-10.43.47:001][701]Cmd: QUIT_EDITOR
+[2017.03.18-10.43.48:009][701]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.18-10.43.48:106][701]LogExit: Preparing to exit.
+[2017.03.18-10.43.49:338][701]LogExit: Editor shut down
+[2017.03.18-10.43.49:339][701]LogExit: Transaction tracking system shut down
+[2017.03.18-10.43.49:504][701]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.18-10.43.49:504][701]LogExit: Object subsystem successfully closed.
+[2017.03.18-10.43.49:524][701]LogD3D11RHI: Shutdown
+[2017.03.18-10.43.49:524][701]LogD3D11RHI: CleanupD3DDevice
+[2017.03.18-10.43.49:610][701]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.18-10.43.49:622][701]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (504)
+[2017.03.18-10.43.49:622][701]LogModuleManager: Shutting down and abandoning module SequencerWidgets (502)
+[2017.03.18-10.43.49:622][701]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.03.18-10.43.49:622][701]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.03.18-10.43.49:623][701]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.18-10.43.49:623][701]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.18-10.43.49:623][701]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.18-10.43.49:623][701]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.18-10.43.49:624][701]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.18-10.43.49:630][701]LogDirectoryWatcher: A directory notification for 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Collections/' was aborted.
+[2017.03.18-10.43.49:630][701]LogDirectoryWatcher: A directory notification for 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Developers/Aratim/Collections/' was aborted.
+[2017.03.18-10.43.49:630][701]LogDirectoryWatcher: A directory notification for 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Collections/' was aborted.
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.18-10.43.49:630][701]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.18-10.43.49:631][701]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.18-10.43.50:179][701]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.18-10.43.50:180][701]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.18-10.43.50:181][701]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.18-10.43.50:181][701]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.18-10.43.50:181][701]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.18-10.43.50:181][701]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.18-10.43.50:181][701]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.18-10.43.50:182][701]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.18-10.43.50:182][701]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.18-10.43.50:227][701]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.18-10.43.50:227][701]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.18-10.43.50:227][701]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.18-10.43.50:227][701]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.18-10.43.50:227][701]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.18-10.43.50:227][701]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.18-10.43.50:228][701]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.18-10.43.50:228][701]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.18-10.43.50:228][701]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.18-10.43.50:264][701]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.18-10.43.50:265][701]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.18-10.43.50:267][701]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.18-10.43.50:267][701]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.18-10.43.50:267][701]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.18-10.43.50:267][701]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.18-10.43.50:267][701]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.18-10.43.50:267][701]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.18-10.43.50:268][701]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.18-10.43.50:426][701]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.18-10.43.50:427][701]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.18-10.43.50:428][701]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.18-10.43.50:428][701]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.18-10.43.50:428][701]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.18-10.43.50:428][701]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.18-10.43.50:428][701]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.18-10.43.50:428][701]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.18-10.43.50:431][701]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.18-10.43.50:431][701]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.18-10.43.50:431][701]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.18-10.43.50:433][701]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.18-10.43.50:437][701]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.18-10.43.50:437][701]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.18-10.43.50:437][701]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.18-10.43.50:437][701]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.18-10.43.50:538][701]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.18-10.43.50:639][701]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.18-10.43.50:640][701]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.18-10.43.50:641][701]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.18-10.43.50:651][701]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.18-10.43.50:652][701]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.18-10.43.50:652][701]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.18-10.43.50:652][701]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.18-10.43.50:652][701]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.18-10.43.50:652][701]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.18-10.43.50:910][701]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.18-10.43.50:910][701]LogDirectoryWatcher: A directory notification for 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/' was aborted.
+[2017.03.18-10.43.50:910][701]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.18-10.43.50:910][701]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.18-10.43.50:916][701]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.18-10.43.50:930][701]LogDerivedDataCache: Shutdown
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.18-10.43.50:930][701]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.18-10.43.50:931][701]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.18-10.43.50:932][701]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.18-10.43.50:932][701]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.18-10.43.50:932][701]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.18-10.43.50:932][701]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEB678DEA-426A-D5FD-0AF0-85BD431AFB58%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=8c302d144559193dacf57282e4537a6d%7C1d93bd08b07d44d8aee1421bc67e0dd5%7C2f678aea-a734-4285-a967-b3de143619f5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.18-10.43.50:963][701]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.18-10.43.50:966][701]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.18-10.43.50:966][701]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.18-10.43.50:967][701]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.18-10.43.50:967][701]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.18-10.43.50:967][701]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.18-10.43.51:035][701]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.18-10.43.51:038][701]LogExit: Exiting.
+[2017.03.18-10.43.51:044][701]Log file closed, 03/18/17 11:43:51
