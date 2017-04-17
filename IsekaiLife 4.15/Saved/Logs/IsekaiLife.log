@@ -1079,3 +1079,373 @@ LogInit: Object subsystem initialized
 [2017.04.17-10.33.24:913][689]LogSavePackage: Save=278.24ms
 [2017.04.17-10.33.24:913][689]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_BuiltData637F33EF42569E030BD61B9AD90856EF.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
 [2017.04.17-10.33.24:914][689]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.17-13.18.39:738][370]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestTexturesV2\PlayerIcon.png)
+[2017.04.17-13.18.39:759][370]LogTexture:Display: Building textures: PlayerIcon (AutoDXT, 64X64) - 209 MB total VRAM
+[2017.04.17-13.18.39:779][370]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestTexturesV2\TextBorder.png)
+[2017.04.17-13.18.39:786][370]LogTexture:Display: Building textures: TextBorder (BGRA8, 400X90) - 209 MB total VRAM
+[2017.04.17-13.18.39:801][370]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestTexturesV2\GoalIcon.png)
+[2017.04.17-13.18.39:805][370]LogTexture:Display: Building textures: GoalIcon (AutoDXT, 20X20) - 210 MB total VRAM
+[2017.04.17-13.18.39:813][370]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestTexturesV2\MiniMapBorder.png)
+[2017.04.17-13.18.39:818][370]LogTexture:Display: Building textures: MiniMapBorder (BGRA8, 224X225) - 210 MB total VRAM
+[2017.04.17-13.18.39:831][370]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestTexturesV2\NpcIcon.png)
+[2017.04.17-13.18.39:837][370]LogTexture:Display: Building textures: NpcIcon (AutoDXT, 64X64) - 210 MB total VRAM
+[2017.04.17-13.19.00:181][411]LogTexture:Display: Building textures: GoalIcon (BGRA8, 20X20) - 208 MB total VRAM
+[2017.04.17-13.19.00:192][411]LogTexture:Display: Building textures: NpcIcon (BGRA8, 64X64) - 208 MB total VRAM
+[2017.04.17-13.19.00:198][411]LogTexture:Display: Building textures: PlayerIcon (BGRA8, 64X64) - 208 MB total VRAM
+[2017.04.17-13.19.03:591][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/GoalIcon" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/GoalIcon.uasset" SILENT=true
+[2017.04.17-13.19.03:596][762]LogSavePackage: Save=4.78ms
+[2017.04.17-13.19.03:596][762]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/GoalIconE012356943E8B283933B019E24916653.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/GoalIcon.uasset'
+[2017.04.17-13.19.03:602][762]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/GoalIcon.uasset
+[2017.04.17-13.19.03:612][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/MiniMapBorder" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/MiniMapBorder.uasset" SILENT=true
+[2017.04.17-13.19.03:625][762]LogSavePackage: Save=12.57ms
+[2017.04.17-13.19.03:625][762]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MiniMapBorder6D8AEED042ACCAFA91793789D63F766C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/MiniMapBorder.uasset'
+[2017.04.17-13.19.03:626][762]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/MiniMapBorder.uasset
+[2017.04.17-13.19.03:629][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/NpcIcon" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/NpcIcon.uasset" SILENT=true
+[2017.04.17-13.19.03:634][762]LogSavePackage: Save=4.07ms
+[2017.04.17-13.19.03:634][762]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/NpcIcon31FB4B9A4748BA1985D933BC584E9258.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/NpcIcon.uasset'
+[2017.04.17-13.19.03:635][762]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/NpcIcon.uasset
+[2017.04.17-13.19.03:639][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/PlayerIcon" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/PlayerIcon.uasset" SILENT=true
+[2017.04.17-13.19.03:645][762]LogSavePackage: Save=4.58ms
+[2017.04.17-13.19.03:645][762]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/PlayerIcon4D397C684AC059F6BDE6AB9FBE85116E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/PlayerIcon.uasset'
+[2017.04.17-13.19.03:646][762]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/PlayerIcon.uasset
+[2017.04.17-13.19.03:650][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/TextBorder" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/TextBorder.uasset" SILENT=true
+[2017.04.17-13.19.03:656][762]LogSavePackage: Save=5.55ms
+[2017.04.17-13.19.03:656][762]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/TextBorder916D8B9E4579D6AFF08889897FCC31EB.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/TextBorder.uasset'
+[2017.04.17-13.19.03:657][762]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/TextBorder.uasset
+[2017.04.17-13.27.52:106][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/NpcIcon_Sprite" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/NpcIcon_Sprite.uasset" SILENT=true
+[2017.04.17-13.27.52:118][755]LogSavePackage: Save=10.43ms
+[2017.04.17-13.27.52:118][755]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/NpcIcon_Sprite5C1B2B5C4CDD2CD79B47F9AC9AB250B1.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/NpcIcon_Sprite.uasset'
+[2017.04.17-13.27.52:119][755]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/NpcIcon_Sprite.uasset
+[2017.04.17-13.27.52:142][755]LogSavePackage: Save=8.48ms
+[2017.04.17-13.27.52:142][755]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/PlayerIcon_Sprite20E6DD064F852E2C45DFFE978A0DE23D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/PlayerIcon_Sprite.uasset'
+[2017.04.17-13.27.52:143][755]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/PlayerIcon_Sprite.uasset
+[2017.04.17-13.29.05:358][528]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0039 seconds. Added 1 classes and 2 folders.
+[2017.04.17-13.29.45:325][735]LogSavePackage: Save=6.66ms
+[2017.04.17-13.29.45:325][735]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapRenderTargetF560AC64431F54DF084F638A8CAF8355.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapRenderTarget.uasset'
+[2017.04.17-13.29.45:326][735]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapRenderTarget.uasset
+[2017.04.17-13.33.39:751][496]BlueprintLog: New page: Compile MapCapture
+[2017.04.17-13.33.40:752][569]LogSavePackage: Save=13.46ms
+[2017.04.17-13.33.40:752][569]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture35C2A19049F50BAE833878B152AB1293.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset'
+[2017.04.17-13.33.40:753][569]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset
+[2017.04.17-13.34.25:941][552]LogMaterial: Missing cached shader map for material MiniMap_Mat, compiling. 
+[2017.04.17-13.34.25:948][552]LogTemp:Display: Added material ShaderMap 0x0000024FAA3B9D00 with Material 0x0000025060420700 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.25:966][552]LogTemp:Display: Kicking off shader compilation for MiniMap_Mat, GameThreadShaderMap 0x0000024FAA3B9D00
+[2017.04.17-13.34.28:346][598]LogTemp:Display: Finished compile of shader map 0x0000024FAA3B9D00
+[2017.04.17-13.34.28:346][598]LogTemp:Display: Shader map MiniMap_Mat complete, GameThreadShaderMap 0x0000024FAA3B9D00, marking material MiniMap_Mat as finished
+[2017.04.17-13.34.28:346][598]LogTemp:Display: Marking material as finished 0x0000025060420700
+[2017.04.17-13.34.37:648][698]LogSavePackage: Save=12.96ms
+[2017.04.17-13.34.37:648][698]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Mat_MiniMap937EC30E4531F2BBA451C4A2BFA67583.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/Mat_MiniMap.uasset'
+[2017.04.17-13.34.37:649][698]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/Mat_MiniMap.uasset
+[2017.04.17-13.34.46:506][957]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.34.46:506][957]LogTemp:Display: Added material ShaderMap 0x000002502B1BD600 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.46:514][957]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x000002502B1BD600
+[2017.04.17-13.34.46:645][957]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.34.46:646][957]LogTemp:Display: Added material ShaderMap 0x00000250574DCF00 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.46:654][957]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x00000250574DCF00
+[2017.04.17-13.34.46:654][957]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.34.46:680][957]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.17-13.34.46:681][957]LogTemp:Display: Added material ShaderMap 0x000002506422D280 with Material 0x000002506FA7D300 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.46:682][957]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002506422D280
+[2017.04.17-13.34.48:388][ 63]LogTemp:Display: Finished compile of shader map 0x00000250574DCF00
+[2017.04.17-13.34.48:388][ 63]LogTemp:Display: Shader map Mat_MiniMap complete, GameThreadShaderMap 0x00000250574DCF00, marking material Mat_MiniMap as finished
+[2017.04.17-13.34.48:388][ 63]LogTemp:Display: Marking material as finished 0x0000025069BF0400
+[2017.04.17-13.34.48:397][ 64]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 81 instructions
+[2017.04.17-13.34.48:397][ 64]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.04.17-13.34.48:397][ 64]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.04.17-13.34.48:654][ 94]LogTemp:Display: Finished compile of shader map 0x000002506422D280
+[2017.04.17-13.34.48:654][ 94]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002506422D280, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.17-13.34.48:654][ 94]LogTemp:Display: Marking material as finished 0x000002506FA7D300
+[2017.04.17-13.34.53:604][453]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.34.53:604][453]LogTemp:Display: Added material ShaderMap 0x0000025029925600 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.53:615][453]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000025029925600
+[2017.04.17-13.34.53:623][453]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.34.53:624][453]LogTemp:Display: Added material ShaderMap 0x0000025057496E80 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.53:629][453]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000025057496E80
+[2017.04.17-13.34.53:629][453]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.34.54:562][519]LogTemp:Display: Finished compile of shader map 0x0000025057496E80
+[2017.04.17-13.34.54:562][519]LogTemp:Display: Shader map Mat_MiniMap complete, GameThreadShaderMap 0x0000025057496E80, marking material Mat_MiniMap as finished
+[2017.04.17-13.34.54:562][519]LogTemp:Display: Marking material as finished 0x0000025069BF0400
+[2017.04.17-13.34.54:889][520]MaterialEditorStats: Info Default UI Pixel Shader: 28 instructions
+[2017.04.17-13.34.54:889][520]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2017.04.17-13.34.54:889][520]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2017.04.17-13.34.54:889][520]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.04.17-13.34.57:578][726]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.34.57:578][726]LogTemp:Display: Added material ShaderMap 0x000002505614E080 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.57:586][726]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x000002505614E080
+[2017.04.17-13.34.57:590][726]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.34.57:590][726]LogTemp:Display: Added material ShaderMap 0x0000025064B60F00 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.34.57:598][726]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000025064B60F00
+[2017.04.17-13.34.57:598][726]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.34.58:963][769]LogTemp:Display: Finished compile of shader map 0x0000025064B60F00
+[2017.04.17-13.34.58:963][769]LogTemp:Display: Shader map Mat_MiniMap complete, GameThreadShaderMap 0x0000025064B60F00, marking material Mat_MiniMap as finished
+[2017.04.17-13.34.58:963][769]LogTemp:Display: Marking material as finished 0x0000025069BF0400
+[2017.04.17-13.34.59:295][770]MaterialEditorStats: Info Default UI Pixel Shader: 28 instructions
+[2017.04.17-13.34.59:295][770]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2017.04.17-13.34.59:295][770]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2017.04.17-13.34.59:295][770]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.17-13.35.02:339][979]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.35.02:340][979]LogTemp:Display: Added material ShaderMap 0x0000025053C82780 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.35.02:348][979]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000025053C82780
+[2017.04.17-13.35.02:348][979]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.35.02:378][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.17-13.35.02:379][979]LogTemp:Display: Added material ShaderMap 0x0000025057495600 with Material 0x0000025063013400 to ShaderMapsBeingCompiled
+[2017.04.17-13.35.02:382][979]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000025057495600
+[2017.04.17-13.35.03:659][999]LogTemp:Display: Finished compile of shader map 0x0000025053C82780
+[2017.04.17-13.35.03:659][999]LogTemp:Display: Shader map Mat_MiniMap complete, GameThreadShaderMap 0x0000025053C82780, marking material Mat_MiniMap as finished
+[2017.04.17-13.35.03:659][999]LogTemp:Display: Marking material as finished 0x0000025069BF0400
+[2017.04.17-13.35.03:989][  0]MaterialEditorStats: Info Default UI Pixel Shader: 31 instructions
+[2017.04.17-13.35.03:989][  0]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2017.04.17-13.35.03:989][  0]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2017.04.17-13.35.03:989][  0]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.17-13.35.03:990][  0]LogTemp:Display: Finished compile of shader map 0x0000025057495600
+[2017.04.17-13.35.03:990][  0]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000025057495600, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.17-13.35.03:990][  0]LogTemp:Display: Marking material as finished 0x0000025063013400
+[2017.04.17-13.35.20:692][172]LogMaterialEditor: Applying material Mat_MiniMap
+[2017.04.17-13.35.21:851][172]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.35.21:852][172]LogTemp:Display: Added material ShaderMap 0x0000024FFE979D00 with Material 0x0000025069BF0400 to ShaderMapsBeingCompiled
+[2017.04.17-13.35.21:869][172]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000024FFE979D00
+[2017.04.17-13.35.21:869][172]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.35.21:882][172]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.35.21:883][172]LogTemp:Display: Added material ShaderMap 0x0000025029C73200 with Material 0x00000250125EFB80 to ShaderMapsBeingCompiled
+[2017.04.17-13.35.21:895][172]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000025029C73200
+[2017.04.17-13.35.21:897][172]LogMaterial: Missing cached shader map for material Mat_MiniMap, compiling. 
+[2017.04.17-13.35.21:898][172]LogTemp:Display: Added material ShaderMap 0x0000025000F64480 with Material 0x00000250125EFB80 to ShaderMapsBeingCompiled
+[2017.04.17-13.35.21:908][172]LogTemp:Display: Kicking off shader compilation for Mat_MiniMap, GameThreadShaderMap 0x0000025000F64480
+[2017.04.17-13.35.21:909][172]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.35.21:929][172]TextureStreamingBuild:Display: Compiling optional shaders took 0.000 seconds.
+[2017.04.17-13.35.22:906][283]LogMaterialEditor: Saving and Compiling material Mat_MiniMap
+[2017.04.17-13.35.24:135][283]LogTemp:Display: Finished compile of shader map 0x0000025000F64480
+[2017.04.17-13.35.24:135][283]LogTemp:Display: Shader map Mat_MiniMap complete, GameThreadShaderMap 0x0000025000F64480, marking material Mat_MiniMap as finished
+[2017.04.17-13.35.24:135][283]LogTemp:Display: Marking material as finished 0x00000250125EFB80
+[2017.04.17-13.35.24:145][283]LogTemp:Display: Finished compile of shader map 0x0000024FFE979D00
+[2017.04.17-13.35.24:145][283]LogTemp:Display: Shader map Mat_MiniMap complete, GameThreadShaderMap 0x0000024FFE979D00, marking material Mat_MiniMap as finished
+[2017.04.17-13.35.24:145][283]LogTemp:Display: Marking material as finished 0x0000025069BF0400
+[2017.04.17-13.35.24:218][283]LogSavePackage: Save=11.28ms
+[2017.04.17-13.35.24:218][283]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Mat_MiniMap910FE6E843459E1616A03CAAF9809532.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/Mat_MiniMap.uasset'
+[2017.04.17-13.35.24:223][283]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/Mat_MiniMap.uasset
+[2017.04.17-13.35.24:228][283]MaterialEditorStats: Info Default UI Pixel Shader: 31 instructions
+[2017.04.17-13.35.24:228][283]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2017.04.17-13.35.24:228][283]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2017.04.17-13.35.24:228][283]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.17-13.37.50:459][974]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.04.17-13.37.53:087][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.04.17-13.37.53:315][ 33]LogSavePackage: Save=190.22ms
+[2017.04.17-13.37.53:315][ 33]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter238D9F244C09E0E1AE1DD4B169DF87BE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.04.17-13.37.53:340][ 33]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.04.17-13.38.18:814][267]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.17-13.39.12:022][  1]LogSavePackage: Save=187.01ms
+[2017.04.17-13.39.12:023][  1]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto0CAE91A2F4583405E1CC78E84CCD23741.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap'
+[2017.04.17-13.39.12:023][  1]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap
+[2017.04.17-13.39.12:030][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.423
+[2017.04.17-13.39.12:030][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.423
+[2017.04.17-13.39.12:032][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
+[2017.04.17-13.39.12:048][  1]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
+[2017.04.17-13.39.12:048][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
+[2017.04.17-13.39.12:240][  1]LogSavePackage: Save=188.32ms
+[2017.04.17-13.39.12:240][  1]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto041A581A140B64681143B8CACA5C823F3.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto0.uasset'
+[2017.04.17-13.39.12:240][  1]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto0.uasset
+[2017.04.17-13.39.12:241][  1]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
+[2017.04.17-13.39.12:241][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
+[2017.04.17-13.39.12:258][  1]LogSavePackage: Save=10.42ms
+[2017.04.17-13.39.12:258][  1]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto0B6F5FD59401D14AE4A6951B3A5A97161.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto0.uasset'
+[2017.04.17-13.39.12:258][  1]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto0.uasset
+[2017.04.17-13.39.12:262][  1]LogSavePackage: Save=3.04ms
+[2017.04.17-13.39.12:262][  1]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MiniMap_Mat_Auto02478B90C4F158556EBAF9795CE064C50.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MiniMap_Mat_Auto0.uasset'
+[2017.04.17-13.39.12:263][  1]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MiniMap_Mat_Auto0.uasset
+[2017.04.17-13.39.12:263][  1]LogFileHelpers: Auto-saving content packages took 0.232
+[2017.04.17-13.44.23:802][227]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.04.17-13.44.27:257][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.04.17-13.44.27:454][289]LogSavePackage: Save=187.87ms
+[2017.04.17-13.44.27:454][289]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacterC901AF584FD353D43C206EB95446AE67.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.04.17-13.44.27:459][289]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.04.17-13.46.38:683][718]BlueprintLog: New page: Compile MainWidget
+[2017.04.17-13.46.40:313][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Widget/MainWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset" SILENT=true
+[2017.04.17-13.46.40:638][820]LogSavePackage: Save=97.04ms
+[2017.04.17-13.46.40:638][820]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidgetB5B1D8884B06FF21BF043D9C5FA63F29.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset'
+[2017.04.17-13.46.40:667][820]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset
+[2017.04.17-13.46.41:140][876]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.17-13.46.41:159][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.46.41:161][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.17-13.46.41:165][876]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2017, 5:46:41 PM)
+[2017.04.17-13.46.41:167][876]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.17-13.46.41:222][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054653s)
+[2017.04.17-13.46.41:225][876]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.17-13.46.41:237][876]LogPlayLevel: PIE: World Init took: (0.014662s)
+[2017.04.17-13.46.41:237][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.070243s)
+[2017.04.17-13.46.41:274][876]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.17-13.46.41:283][876]LogInit: FAudioDevice initialized.
+[2017.04.17-13.46.41:323][876]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.17-13.46.41:338][876]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.17-15.46.41
+[2017.04.17-13.46.41:360][876]LogWorld: Bringing up level for play took: 0.035280
+[2017.04.17-13.46.41:378][876]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
+[2017.04.17-13.46.41:379][876]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.17-13.46.41:398][876]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.17-13.46.41:404][876]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.81
+[2017.04.17-13.46.41:406][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.47.15:057][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.47.15:155][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.51.38:512][943]LogSavePackage: Save=194.50ms
+[2017.04.17-13.51.38:512][943]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto12D1DBFD6409DC99A67BE6AB1007B7BFC.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.04.17-13.51.38:514][943]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.04.17-13.51.38:515][943]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.476
+[2017.04.17-13.51.38:515][943]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.476
+[2017.04.17-13.51.38:517][943]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
+[2017.04.17-13.51.38:517][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
+[2017.04.17-13.51.38:534][943]LogSavePackage: Save=10.34ms
+[2017.04.17-13.51.38:534][943]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto109E8B5264A3E56FB2C9109A162D021C5.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto1.uasset'
+[2017.04.17-13.51.38:535][943]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto1.uasset
+[2017.04.17-13.51.38:535][943]LogFileHelpers: Auto-saving content packages took 0.018
+[2017.04.17-13.54.50:304][919]BlueprintLog: New page: Compile MapCapture
+[2017.04.17-13.54.51:658][919]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_2.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:660][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_3.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:662][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_6.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:663][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_9.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:664][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_12.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:666][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_15.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:667][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_18.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:668][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_21.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:669][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_900.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.51:670][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_902.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-13.54.52:595][ 21]LogSavePackage: Save=12.13ms
+[2017.04.17-13.54.52:595][ 21]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCaptureDCB061B64F226DC272F8F4948CCB66C5.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset'
+[2017.04.17-13.54.52:600][ 21]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset
+[2017.04.17-13.54.56:285][455]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.17-13.54.56:311][455]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.54.56:311][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.17-13.54.56:312][455]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 17, 2017, 5:54:56 PM)
+[2017.04.17-13.54.56:312][455]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.17-13.54.56:335][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023750s)
+[2017.04.17-13.54.56:336][455]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.17-13.54.56:337][455]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2017.04.17-13.54.56:337][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025397s)
+[2017.04.17-13.54.56:376][455]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.17-13.54.56:382][455]LogInit: FAudioDevice initialized.
+[2017.04.17-13.54.56:416][455]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.17-13.54.56:420][455]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.17-15.54.56
+[2017.04.17-13.54.56:421][455]LogWorld: Bringing up level for play took: 0.004132
+[2017.04.17-13.54.56:422][455]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
+[2017.04.17-13.54.56:422][455]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.17-13.54.56:439][455]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.17-13.54.56:443][455]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.15
+[2017.04.17-13.54.56:444][455]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.54.58:460][678]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.54.58:527][678]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.17-13.55.17:484][649]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.17-13.55.17:485][649]LogTemp:Display: Added material ShaderMap 0x00000250685EA780 with Material 0x0000024FA7BFD300 to ShaderMapsBeingCompiled
+[2017.04.17-13.55.17:493][649]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x00000250685EA780
+[2017.04.17-13.55.17:570][649]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.04.17-13.55.17:571][649]LogTemp:Display: Added material ShaderMap 0x000002500194F900 with Material 0x0000024FA7BFD300 to ShaderMapsBeingCompiled
+[2017.04.17-13.55.17:580][649]LogTemp:Display: Kicking off shader compilation for PreviewMaterial_0, GameThreadShaderMap 0x000002500194F900
+[2017.04.17-13.55.17:580][649]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.17-13.55.17:605][649]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.04.17-13.55.17:606][649]LogTemp:Display: Added material ShaderMap 0x000002506F44B580 with Material 0x00000250700B7700 to ShaderMapsBeingCompiled
+[2017.04.17-13.55.17:607][649]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000002506F44B580
+[2017.04.17-13.55.19:804][819]LogTemp:Display: Finished compile of shader map 0x000002506F44B580
+[2017.04.17-13.55.19:804][819]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000002506F44B580, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.04.17-13.55.19:804][819]LogTemp:Display: Marking material as finished 0x00000250700B7700
+[2017.04.17-13.55.19:806][819]LogTemp:Display: Finished compile of shader map 0x000002500194F900
+[2017.04.17-13.55.19:806][819]LogTemp:Display: Shader map PreviewMaterial_0 complete, GameThreadShaderMap 0x000002500194F900, marking material PreviewMaterial_0 as finished
+[2017.04.17-13.55.19:806][819]LogTemp:Display: Marking material as finished 0x0000024FA7BFD300
+[2017.04.17-13.55.20:135][820]MaterialEditorStats: Info Default UI Pixel Shader: 31 instructions
+[2017.04.17-13.55.20:135][820]MaterialEditorStats: Info Default UI Vertex Shader: 20 instructions
+[2017.04.17-13.55.20:135][820]MaterialEditorStats: Info Instanced UI Vertex Shader: 20 instructions
+[2017.04.17-13.55.20:135][820]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.04.17-13.56.18:663][407]LogMaterialEditor: Saving and Compiling material Mat_MiniMap
+[2017.04.17-13.56.18:755][407]LogSavePackage: Save=10.83ms
+[2017.04.17-13.56.18:755][407]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Mat_MiniMapDD03054A47BBF4BA88BC65B51D4131F4.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/Mat_MiniMap.uasset'
+[2017.04.17-13.56.18:756][407]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/Mat_MiniMap.uasset
+[2017.04.17-13.58.54:821][405]LogSavePackage: Save=11.58ms
+[2017.04.17-13.58.54:821][405]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture069C4A0D445DD09CF31A6082F88EFC0E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset'
+[2017.04.17-13.58.54:823][405]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset
+[2017.04.17-14.01.41:073][ 40]LogSavePackage: Save=193.14ms
+[2017.04.17-14.01.41:073][ 40]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto2C853C43B442F03120B6F99B7952E6903.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.04.17-14.01.41:074][ 40]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.04.17-14.01.41:076][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.239
+[2017.04.17-14.01.41:076][ 40]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.239
+[2017.04.17-14.01.41:079][ 40]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
+[2017.04.17-14.01.41:115][ 40]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
+[2017.04.17-14.01.41:115][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
+[2017.04.17-14.01.41:326][ 40]LogSavePackage: Save=203.94ms
+[2017.04.17-14.01.41:326][ 40]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto283DF00FB4B260B4AC3F7519D01030CB9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto2.uasset'
+[2017.04.17-14.01.41:326][ 40]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto2.uasset
+[2017.04.17-14.01.41:327][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
+[2017.04.17-14.01.41:327][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
+[2017.04.17-14.01.41:340][ 40]LogSavePackage: Save=10.13ms
+[2017.04.17-14.01.41:340][ 40]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto207902D534CE8A6AAE49680B54617507C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto2.uasset'
+[2017.04.17-14.01.41:341][ 40]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto2.uasset
+[2017.04.17-14.01.41:341][ 40]LogFileHelpers: Auto-saving content packages took 0.263
+[2017.04.17-14.02.02:284][789]LogSavePackage: Save=10.95ms
+[2017.04.17-14.02.02:284][789]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture1DE97D944FA5BCFFBE3C50BAEE19A63D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset'
+[2017.04.17-14.02.02:290][789]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset
+[2017.04.17-14.02.06:124][249]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.04.17-14.02.07:952][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.04.17-14.02.08:143][332]LogSavePackage: Save=187.70ms
+[2017.04.17-14.02.08:143][332]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter2636F4B040CFC60D6192948AFC8F8306.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.04.17-14.02.08:148][332]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.04.17-14.02.10:819][647]LogSavePackage: Save=10.46ms
+[2017.04.17-14.02.10:819][647]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture33038A45405CBEC8A90A83ADB254C9C7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset'
+[2017.04.17-14.02.10:820][647]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/MiniMap/MapCapture.uasset
+[2017.04.17-14.03.41:307][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1000.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:308][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1002.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:310][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1004.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:311][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1006.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:313][743]LogActorComponent: RegisterComponentWithWorld: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_14.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:314][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_55:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1008.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:316][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1010.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:317][743]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_1012.CamMesh0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.04.17-14.03.41:574][743]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.255 s
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: === Handled ensure: ===
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: 
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: Ensure condition failed: Obj != nullptr [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Editor\PropertyEditor\Private\PropertyChangeListener.cpp] [Line: 246]
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: 
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: Stack: 
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3AA95E6
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3859B82
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C386B666
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B233A220
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Sequencer.dll!0x00000000AF8C5DE9
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Sequencer.dll!0x00000000AF86CECE
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DBAEFCFE
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000B56AFF52
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DBB20370
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DBB1BC0A
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B23D7D3A
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B23CD984
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B23CDF2C
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B240C654
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B24AE9C5
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B249C807
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247B3DB
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247D78A
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247CB9D
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B24A6999
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247AAEB
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247D16A
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247CB9D
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B24A6B2D
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247A5DB
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247CDFA
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B247CB9D
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B24AAAA9
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-PropertyEditor.dll!0x00000000B24A4E18
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B9D2411C
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B9CF47F5
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B9D97193
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B9D81100
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000B9D70211
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3A9CDF9
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3A867C1
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3A9EA1C
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3A826E9
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: USER32.dll!0x00000000F1CC1C24
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: USER32.dll!0x00000000F1CC156C
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C3A9F326
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor.exe!0x000000008EC3D790
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor.exe!0x000000008EC2EB40
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor.exe!0x000000008EC2EBBA
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor.exe!0x000000008EC40A29
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: UE4Editor.exe!0x000000008EC422B6
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EF3E8364
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: ntdll.dll!0x00000000F1E870D1
+[2017.04.17-14.03.41:574][743]LogOutputDevice:Error: 
+[2017.04.17-14.03.41:577][743]LogStats:                SubmitErrorReport -  0.000 s
