@@ -1,9 +1,9 @@
-﻿Log file open, 04/18/17 09:37:46
+﻿Log file open, 04/18/17 17:11:45
 LogInit:Display: Running engine for game: IsekaiLife
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1796949932) SRandInit(-1796949932).
+LogInit:Display: RandInit(1114821016) SRandInit(1114821016).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.749594
+LogStats: Stats thread started at 0.191492
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -48,702 +48,337 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.04.18-07.37.47:007][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.18-07.37.47:007][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.04.18-07.37.47:031][  0]LogInit: Computer: DESKTOP-IJKOIIJ
-[2017.04.18-07.37.47:031][  0]LogInit: User: Aratim
-[2017.04.18-07.37.47:031][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.04.18-07.37.47:031][  0]LogInit: High frequency timer resolution =3.417988 MHz
-[2017.04.18-07.37.47:031][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.04.18-07.37.47:031][  0]LogMemory: Platform Memory Stats for Windows
-[2017.04.18-07.37.47:032][  0]LogMemory: Process Physical Memory: 263.38 MB used, 263.38 MB peak
-[2017.04.18-07.37.47:032][  0]LogMemory: Process Virtual Memory: 262.38 MB used, 262.38 MB peak
-[2017.04.18-07.37.47:032][  0]LogMemory: Physical Memory: 2770.14 MB used,  5370.71 MB free, 8140.85 MB total
-[2017.04.18-07.37.47:032][  0]LogMemory: Virtual Memory: 644.41 MB used,  5370.71 MB free, 134217728.00 MB total
-[2017.04.18-07.37.47:475][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
-[2017.04.18-07.37.49:480][  0]LogD3D11RHI: D3D11 adapters:
-[2017.04.18-07.37.49:966][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.04.18-07.37.49:966][  0]LogD3D11RHI:       6084/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.04.18-07.37.49:967][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.04.18-07.37.49:967][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.04.18-07.37.49:967][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.04.18-07.37.49:972][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.04.18-07.37.49:972][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.04.18-07.37.49:972][  0]LogWindows: EnumDisplayDevices:
-[2017.04.18-07.37.49:972][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.04.18-07.37.49:972][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.18-07.37.49:972][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.18-07.37.49:972][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.04.18-07.37.49:973][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.04.18-07.37.49:973][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.04.18-07.37.49:973][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
-[2017.04.18-07.37.49:973][  0]LogD3D11RHI:      Driver Date: 3-31-2017
-[2017.04.18-07.37.49:973][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.04.18-07.37.50:429][  0]LogD3D11RHI: Async texture creation enabled
-[2017.04.18-07.37.50:484][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.04.18-07.37.50:541][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Intermediate/Shaders/WorkingDirectory/6824/).
-[2017.04.18-07.37.50:541][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aratim/AppData/Local/Temp/UnrealShaderWorkingDir/E919D53842E96A22D142EFA27F4151A4/'.
-[2017.04.18-07.37.50:542][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.04.18-07.37.52:902][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.04.18-07.37.52:948][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.04.18-07.37.52:993][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.04.18-07.37.53:038][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.04.18-07.37.53:090][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.04.18-07.37.53:136][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.04.18-07.37.53:181][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.04.18-07.37.53:227][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.04.18-07.37.53:264][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.04.18-07.37.53:311][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.04.18-07.37.53:356][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.04.18-07.37.53:400][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.04.18-07.37.53:444][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.04.18-07.37.53:488][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.04.18-07.37.53:532][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.04.18-07.37.53:618][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.04.18-07.37.53:618][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.04.18-07.37.53:647][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.04.18-07.37.53:754][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.04.18-07.37.53:783][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.04.18-07.37.53:825][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.04.18-07.37.53:868][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.04.18-07.37.53:914][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.04.18-07.37.53:965][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.04.18-07.37.53:965][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.04.18-07.37.54:588][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.04.18-07.37.54:874][  0]LogDerivedDataCache: Loaded boot cache 0.29s 50MB C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.04.18-07.37.54:874][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
-[2017.04.18-07.37.54:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.04.18-07.37.54:875][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.04.18-07.37.54:875][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.04.18-07.37.54:875][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.04.18-07.37.54:941][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.04.18-07.37.54:954][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aratim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.04.18-07.37.54:973][  0]LogSlate: Using Freetype 2.6.0
-[2017.04.18-07.37.54:983][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.18-07.37.54:983][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.04.18-07.37.58:234][  0]LogInit: Selected Device Profile: [Windows]
-[2017.04.18-07.37.58:245][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.04.18-07.37.58:486][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.04.18-07.37.58:521][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.04.18-07.37.58:562][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.04.18-07.37.58:562][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.04.18-07.37.58:562][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.04.18-07.37.59:815][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: isekailife, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 721096836
-[2017.04.18-07.37.59:868][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2017.04.18-07.37.59:903][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015044 seconds
-[2017.04.18-07.37.59:910][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
-[2017.04.18-07.37.59:910][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
-[2017.04.18-07.37.59:910][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.04.18-07.37.59:962][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.04.18-07.38.02:938][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.04.18-07.38.02:975][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.04.18-07.38.03:551][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.04.18-07.38.03:961][  0]SourceControl: Info Source control is disabled
-[2017.04.18-07.38.03:962][  0]SourceControl: Info Source control is disabled
-[2017.04.18-07.38.04:008][  0]SourceControl: Info Source control is disabled
-[2017.04.18-07.38.04:048][  0]SourceControl: Info Source control is disabled
-[2017.04.18-07.38.05:260][  0]LogEngine: Initializing Engine...
-[2017.04.18-07.38.05:260][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.04.18-07.38.05:591][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.04.18-07.38.05:609][  0]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-07.38.05:620][  0]LogInit: FAudioDevice initialized.
-[2017.04.18-07.38.05:648][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
-[2017.04.18-07.38.05:658][  0]LogInit: Texture streaming: Enabled
-[2017.04.18-07.38.05:737][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.04.18-07.38.05:818][  0]LogInit: Transaction tracking system initialized
-[2017.04.18-07.38.06:122][  0]BlueprintLog: New page: Editor Load
-[2017.04.18-07.38.06:924][  0]LocalizationService: Info Localization service is disabled
-[2017.04.18-07.38.07:520][  0]LogConsoleResponse:Display: 
-[2017.04.18-07.38.07:854][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.04.18-07.38.07:854][  0]LogCook:Display: Mobile HDR setting 1
-[2017.04.18-07.38.08:766][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/' took 0.03s
-[2017.04.18-07.38.08:820][  0]SourceControl: Info Source control is disabled
-[2017.04.18-07.38.08:823][  0]Cmd: MAP LOAD FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.04.18-07.38.08:824][  0]LightingResults: New page: Lighting Build
-[2017.04.18-07.38.08:863][  0]MapCheck: New page: Map Check
-[2017.04.18-07.38.08:863][  0]LightingResults: New page: Lighting Build
-[2017.04.18-07.38.17:258][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_41
-[2017.04.18-07.38.18:372][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-07.38.18:432][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.04.18-07.38.18:433][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.04.18-07.38.18:486][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.656ms to complete.
-[2017.04.18-07.38.18:486][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.664
-[2017.04.18-07.38.18:732][  0]LogCollectionManager: Loaded 0 collections in 0.001834 seconds
-[2017.04.18-07.38.18:853][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Collections/' took 0.01s
-[2017.04.18-07.38.18:853][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Developers/Aratim/Collections/' took 0.01s
-[2017.04.18-07.38.18:853][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Collections/' took 0.01s
-[2017.04.18-07.38.18:853][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2017.04.18-07.38.18:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2245 classes and 453 folders.
-[2017.04.18-07.38.18:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.04.18-07.38.18:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.04.18-07.38.18:924][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.04.18-07.38.19:244][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.04.18-07.38.19:293][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.04.18-07.38.19:405][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.04.18-07.38.19:417][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.04.18-07.38.19:485][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.04.18-07.38.19:487][  0]LogLoad: (Engine Initialization) Total time: 37.30 seconds
-[2017.04.18-07.38.19:487][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.83 seconds
-[2017.04.18-07.38.19:487][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.04.18-07.38.19:487][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.04.18-07.38.19:826][  0]LogOcInput: OculusInput pre-init called
-[2017.04.18-07.38.19:849][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.04.18-07.38.19:858][  0]LogSlate: Took 0.004625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.04.18-07.38.19:865][  0]LogSlate: Took 0.004951 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.04.18-07.38.19:876][  0]LogSlate: Took 0.004693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.04.18-07.38.20:068][  0]LogSlate: Took 0.004860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.04.18-07.38.20:093][  0]LogRenderer: Reallocating scene render targets to support 300x300 NumSamples 1 (Frame:2).
-[2017.04.18-07.38.20:114][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
-[2017.04.18-07.38.20:558][  2]LogAssetRegistry: Asset discovery search completed in 20.7124 seconds
-[2017.04.18-07.38.20:558][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
-[2017.04.18-07.38.20:558][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000334 seconds (updated 0 objects)
-[2017.04.18-07.38.20:877][  3]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.04.18-07.41.42:590][ 28]LogSlate: Took 0.002908 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.04.18-07.41.43:942][ 28]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
-[2017.04.18-07.41.44:519][ 28]LogSlate: Took 0.002594 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.04.18-07.41.44:631][ 28]LogSlate: Took 0.003786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.04.18-07.41.56:084][ 32]LogSlate: Took 0.006563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.04.18-07.42.40:092][401]LogSlate: Took 0.003714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.04.18-07.44.11:354][340]LogClass:Warning: Type mismatch in CurrentGoalActor of SKEL_BP_QuestManager_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
-[2017.04.18-07.44.15:760][746]BlueprintLog: New page: Compile BP_QuestManager
-[2017.04.18-07.44.17:322][794]LogSavePackage: Save=237.61ms
-[2017.04.18-07.44.17:323][794]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManagerF6306AA84E92E6B221D068889D41A945.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
-[2017.04.18-07.44.17:327][794]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
-[2017.04.18-07.52.22:966][456]BlueprintLog: New page: Compile QuestWidget
-[2017.04.18-07.52.23:866][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/QuestWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestWidget.uasset" SILENT=true
-[2017.04.18-07.52.24:165][536]LogSavePackage: Save=290.64ms
-[2017.04.18-07.52.24:165][536]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestWidgetA758794B40F2A1E09D0390B65F17826D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestWidget.uasset'
-[2017.04.18-07.52.24:166][536]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestWidget.uasset
-[2017.04.18-07.54.19:041][157]BlueprintLog: New page: Compile QuestWidget
-[2017.04.18-07.54.19:971][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/QuestWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestWidget.uasset" SILENT=true
-[2017.04.18-07.54.20:010][241]LogSavePackage: Save=35.83ms
-[2017.04.18-07.54.20:010][241]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestWidgetDD4242C7482B76FB3E3EA89BCC1DE964.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestWidget.uasset'
-[2017.04.18-07.54.20:011][241]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestWidget.uasset
-[2017.04.18-07.56.00:031][334]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.029
-[2017.04.18-07.56.00:074][334]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
-[2017.04.18-07.56.00:074][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
-[2017.04.18-07.56.00:096][334]LogSavePackage: Save=14.34ms
-[2017.04.18-07.56.00:096][334]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto1FF98D4A04F1DC4839488E2BB153DD485.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto1.uasset'
-[2017.04.18-07.56.00:097][334]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto1.uasset
-[2017.04.18-07.56.00:097][334]LogFileHelpers: Auto-saving content packages took 0.065
-[2017.04.18-08.04.07:837][421]BlueprintLog: New page: Compile BP_QuestManager
-[2017.04.18-08.04.08:848][502]LogSavePackage: Save=15.72ms
-[2017.04.18-08.04.08:848][502]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager03C142724D6FE18E02145EBB6EAB2E0B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
-[2017.04.18-08.04.08:851][502]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
-[2017.04.18-08.07.27:551][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.023
-[2017.04.18-08.07.27:552][311]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
-[2017.04.18-08.07.27:552][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
-[2017.04.18-08.07.27:578][311]LogSavePackage: Save=20.85ms
-[2017.04.18-08.07.27:578][311]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto255F81FC1491D9A55B3129188980C5B72.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto2.uasset'
-[2017.04.18-08.07.27:578][311]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto2.uasset
-[2017.04.18-08.07.27:578][311]LogFileHelpers: Auto-saving content packages took 0.027
-[2017.04.18-08.13.03:931][982]BlueprintLog: New page: Compile BP_QuestManager
-[2017.04.18-08.13.04:685][ 25]LogSavePackage: Save=29.45ms
-[2017.04.18-08.13.04:685][ 25]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManagerF21ADEBD48BE442FD85ACB8D92D13069.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
-[2017.04.18-08.13.04:686][ 25]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
-[2017.04.18-08.13.36:252][612]LogSlate: Took 0.014383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.04.18-08.15.39:078][220]BlueprintLog: New page: Compile SubGoalWidget
-[2017.04.18-08.15.39:824][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/sUBgOALwIDGET" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset" SILENT=true
-[2017.04.18-08.15.39:859][282]LogSavePackage: Save=26.51ms
-[2017.04.18-08.15.39:859][282]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGET25EF5B744EA89B3B118E85B646E6B6C3.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset'
-[2017.04.18-08.15.39:860][282]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset
-[2017.04.18-08.16.26:346][ 24]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:8326).
-[2017.04.18-08.19.32:054][687]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.028
-[2017.04.18-08.19.32:055][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1] ([1] browsable assets)...
-[2017.04.18-08.19.32:055][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1]
-[2017.04.18-08.19.32:066][687]LogSavePackage: Save=10.01ms
-[2017.04.18-08.19.32:067][687]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Quest_Test1_Auto306997803433055EC94E5E58BE271E74D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1_Auto3.uasset'
-[2017.04.18-08.19.32:067][687]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1_Auto3.uasset
-[2017.04.18-08.19.32:067][687]LogFileHelpers: Auto-saving content packages took 0.012
-[2017.04.18-08.21.29:396][778]BlueprintLog: New page: Compile Quest_Test1
-[2017.04.18-08.21.30:158][841]LogSavePackage: Save=12.24ms
-[2017.04.18-08.21.30:158][841]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Quest_Test1CC97179E4DFBF08A521E909B2ACB3070.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset'
-[2017.04.18-08.21.30:159][841]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset
-[2017.04.18-08.23.03:572][825]BlueprintLog: New page: Compile Ch_MyCharacter
-[2017.04.18-08.23.05:665][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
-[2017.04.18-08.23.05:864][923]LogSavePackage: Save=190.10ms
-[2017.04.18-08.23.05:864][923]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacterCE2468B7464B4301B81ED8B47B16E994.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
-[2017.04.18-08.23.05:887][923]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
-[2017.04.18-08.29.39:855][517]LogSavePackage: Save=258.27ms
-[2017.04.18-08.29.39:855][517]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto46565F5AE4D181072E52DFD85C6A1C17D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
-[2017.04.18-08.29.39:877][517]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
-[2017.04.18-08.29.39:882][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.602
-[2017.04.18-08.29.39:882][517]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.602
-[2017.04.18-08.29.39:885][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
-[2017.04.18-08.29.39:905][517]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
-[2017.04.18-08.29.39:905][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
-[2017.04.18-08.29.40:110][517]LogSavePackage: Save=197.43ms
-[2017.04.18-08.29.40:110][517]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto4A14D3ED24CDD611EB3A598B0652EF18F.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto4.uasset'
-[2017.04.18-08.29.40:122][517]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto4.uasset
-[2017.04.18-08.29.40:123][517]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
-[2017.04.18-08.29.40:123][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
-[2017.04.18-08.29.40:140][517]LogSavePackage: Save=10.08ms
-[2017.04.18-08.29.40:140][517]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto4C15691124D936D4D6A09E4AC748E5F66.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto4.uasset'
-[2017.04.18-08.29.40:165][517]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto4.uasset
-[2017.04.18-08.29.40:165][517]LogFileHelpers: Auto-saving content packages took 0.282
-[2017.04.18-08.30.18:514][824]BlueprintLog: New page: Compile Ch_MyCharacter
-[2017.04.18-08.30.20:539][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
-[2017.04.18-08.30.20:728][851]LogSavePackage: Save=185.00ms
-[2017.04.18-08.30.20:729][851]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacterC2548FCB493089CAC6C84C90FC7D7379.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
-[2017.04.18-08.30.20:737][851]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
-[2017.04.18-08.30.26:691][159]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-08.30.26:722][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.30.26:722][159]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.04.18-08.30.26:722][159]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
-[2017.04.18-08.30.27:536][159]LogPlayLevel: PlayLevel: Blueprint regeneration took 814 ms (1 blueprints)
-[2017.04.18-08.30.27:541][159]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 12:30:27 PM)
-[2017.04.18-08.30.27:542][159]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-08.30.27:576][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034346s)
-[2017.04.18-08.30.27:577][159]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-08.30.27:577][159]LogPlayLevel: PIE: World Init took: (0.001268s)
-[2017.04.18-08.30.27:578][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036393s)
-[2017.04.18-08.30.27:605][159]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-08.30.27:611][159]LogInit: FAudioDevice initialized.
-[2017.04.18-08.30.27:770][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2017.04.18-08.30.27:777][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3165.59] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 15 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.18-08.30.27:778][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3165.59] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.18-08.30.27:778][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3165.59] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.18-08.30.27:794][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2017.04.18-08.30.27:798][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3165.61] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 10 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.18-08.30.27:798][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3165.61] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.18-08.30.27:798][159]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3165.61] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2017.04.18-08.30.27:812][159]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-08.30.27:817][159]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-10.30.27
-[2017.04.18-08.30.27:824][159]LogWorld: Bringing up level for play took: 0.010870
-[2017.04.18-08.30.27:878][159]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2017.04.18-08.30.27:881][159]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-08.30.27:881][159]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.30.27:902][159]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.30.27:904][159]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.876
-[2017.04.18-08.30.27:905][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.30.28:255][159]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:27701).
-[2017.04.18-08.30.48:643][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.30.48:736][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.31.46:195][318]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-08.31.46:225][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.31.46:225][318]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.04.18-08.31.46:225][318]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
-[2017.04.18-08.31.47:050][318]LogPlayLevel: PlayLevel: Blueprint regeneration took 824 ms (1 blueprints)
-[2017.04.18-08.31.47:050][318]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 12:31:47 PM)
-[2017.04.18-08.31.47:050][318]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-08.31.47:073][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022747s)
-[2017.04.18-08.31.47:074][318]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-08.31.47:074][318]LogPlayLevel: PIE: World Init took: (0.001196s)
-[2017.04.18-08.31.47:075][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024248s)
-[2017.04.18-08.31.47:103][318]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-08.31.47:110][318]LogInit: FAudioDevice initialized.
-[2017.04.18-08.31.47:143][318]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-08.31.47:148][318]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-10.31.47
-[2017.04.18-08.31.47:149][318]LogWorld: Bringing up level for play took: 0.004249
-[2017.04.18-08.31.47:149][318]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-08.31.47:150][318]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.31.47:166][318]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.31.47:167][318]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.14
-[2017.04.18-08.31.47:167][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.31.49:783][519]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.QuestWidget_C_34
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:SelectSubGoal:0221
-[2017.04.18-08.31.49:784][519]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'SelectSubGoal' from node: On Switch Sub Quest in graph: SelectSubGoal in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.32.29:953][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.32.30:033][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.33.34:410][835]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-08.33.34:437][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.33.34:437][835]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.04.18-08.33.34:437][835]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
-[2017.04.18-08.33.35:253][835]LogPlayLevel: PlayLevel: Blueprint regeneration took 815 ms (1 blueprints)
-[2017.04.18-08.33.35:253][835]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 12:33:35 PM)
-[2017.04.18-08.33.35:253][835]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-08.33.35:277][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023956s)
-[2017.04.18-08.33.35:278][835]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-08.33.35:278][835]LogPlayLevel: PIE: World Init took: (0.001109s)
-[2017.04.18-08.33.35:279][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025385s)
-[2017.04.18-08.33.35:307][835]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-08.33.35:313][835]LogInit: FAudioDevice initialized.
-[2017.04.18-08.33.35:350][835]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-08.33.35:357][835]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-10.33.35
-[2017.04.18-08.33.35:358][835]LogWorld: Bringing up level for play took: 0.007143
-[2017.04.18-08.33.35:359][835]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-08.33.35:360][835]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.33.35:392][835]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.33.35:396][835]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.368
-[2017.04.18-08.33.35:397][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.33.38:033][121]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:SelectSubGoal:0221
-[2017.04.18-08.33.38:033][121]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'SelectSubGoal' from node: On Switch Sub Quest in graph: SelectSubGoal in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.41:021][479]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.41:021][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.41:021][479]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.41:021][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.42:064][604]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.42:064][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.42:064][604]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.42:064][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.42:298][632]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.42:298][632]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.42:298][632]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.42:298][632]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.42:514][658]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.42:514][658]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.42:514][658]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.42:514][658]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.43:115][730]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.43:115][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.43:115][730]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_21
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.43:115][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.43:323][755]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.43:323][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.43:323][755]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_21
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.43:323][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.43:532][780]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.43:532][780]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.43:532][780]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_21
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.43:532][780]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.44:825][935]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.44:825][935]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.44:825][935]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_22
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.44:825][935]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.45:008][957]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.45:008][957]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.45:008][957]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_22
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.45:008][957]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.45:216][982]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.45:217][982]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.45:217][982]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_22
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.45:217][982]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.46:811][173]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.46:811][173]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.46:811][173]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.46:811][173]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:003][196]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.47:003][196]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:003][196]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.47:003][196]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:020][198]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.47:020][198]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:020][198]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_20
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.47:020][198]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:553][262]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.47:553][262]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:553][262]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_21
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.47:553][262]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:770][288]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.47:770][288]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.47:770][288]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_21
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.47:770][288]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.48:629][391]LogScript:Warning: Accessed None trying to read property QuestManager
-	QuestWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.QuestWidget_C_37
-	Function /Game/QuestSystem/Widgets/QuestWidget.QuestWidget_C:CurrentQuest?:0028
-[2017.04.18-08.33.48:630][391]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.48:630][391]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_22
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.48:630][391]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.48:880][421]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'CurrentQuest?' from node: Return Node in graph: CurrentQuest? in object: QuestWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.48:880][421]LogScript:Warning: Accessed None trying to read property QuestManager
-	SubGoalWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.SubGoalWidget_C_22
-	Function /Game/QuestSystem/Widgets/sUBgOALwIDGET.SubGoalWidget_C:ExecuteUbergraph_SubGoalWidget:00AE
-[2017.04.18-08.33.48:880][421]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property QuestManager from function: 'ExecuteUbergraph_SubGoalWidget' from node: Select New Quest in graph: EventGraph in object: SubGoalWidget with description: Accessed None trying to read property QuestManager
-[2017.04.18-08.33.50:018][555]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.33.50:056][555]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.39.05:491][ 17]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
-[2017.04.18-08.39.20:919][862]LogTabManager:Warning: Cannot spawn tab because no spawner is registered for 'FindResults'
-[2017.04.18-08.44.30:409][129]LogSavePackage: Save=282.13ms
-[2017.04.18-08.44.30:409][129]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto579882BA64ACB9B387A3AD3A43D7D088C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
-[2017.04.18-08.44.30:445][129]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
-[2017.04.18-08.44.30:447][129]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.611
-[2017.04.18-08.44.30:447][129]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.611
-[2017.04.18-08.44.30:450][129]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
-[2017.04.18-08.44.30:466][129]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
-[2017.04.18-08.44.30:466][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
-[2017.04.18-08.44.30:677][129]LogSavePackage: Save=201.79ms
-[2017.04.18-08.44.30:677][129]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto556A5EE234997E2DC5AB8BC990B6FAFDD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto5.uasset'
-[2017.04.18-08.44.30:711][129]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto5.uasset
-[2017.04.18-08.44.30:711][129]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
-[2017.04.18-08.44.30:711][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
-[2017.04.18-08.44.30:740][129]LogSavePackage: Save=19.16ms
-[2017.04.18-08.44.30:740][129]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto572A6F25C4F458BD3714776B4D50858E1.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto5.uasset'
-[2017.04.18-08.44.30:741][129]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto5.uasset
-[2017.04.18-08.44.30:741][129]LogFileHelpers: Auto-saving content packages took 0.292
-[2017.04.18-08.53.17:423][ 60]LogEditorTransaction: Undo Create Pin Link
-[2017.04.18-08.53.18:656][156]LogEditorTransaction: Undo Create Pin Link
-[2017.04.18-08.53.19:531][213]LogEditorTransaction: Undo Move Node
-[2017.04.18-08.53.20:654][299]LogEditorTransaction: Undo Add Node
-[2017.04.18-08.55.40:354][168]LogEditorTransaction: Undo Create Pin Link
-[2017.04.18-08.55.41:882][336]LogEditorTransaction: Undo Create Pin Link
-[2017.04.18-08.55.42:647][380]LogEditorTransaction: Undo Move Node
-[2017.04.18-08.55.43:385][421]LogEditorTransaction: Undo Add Node
-[2017.04.18-08.55.44:079][457]LogEditorTransaction: Undo Delete current selection
-[2017.04.18-08.55.44:861][502]LogEditorTransaction: Undo Delete current selection
-[2017.04.18-08.56.40:750][624]BlueprintLog: New page: Compile Ch_MyCharacter
-[2017.04.18-08.56.43:184][745]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-08.56.43:216][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.56.43:216][745]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.04.18-08.56.43:216][745]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
-[2017.04.18-08.56.44:069][745]LogPlayLevel: PlayLevel: Blueprint regeneration took 852 ms (1 blueprints)
-[2017.04.18-08.56.44:069][745]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 12:56:44 PM)
-[2017.04.18-08.56.44:069][745]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-08.56.44:095][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026157s)
-[2017.04.18-08.56.44:097][745]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-08.56.44:098][745]LogPlayLevel: PIE: World Init took: (0.002565s)
-[2017.04.18-08.56.44:099][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029747s)
-[2017.04.18-08.56.44:127][745]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-08.56.44:133][745]LogInit: FAudioDevice initialized.
-[2017.04.18-08.56.44:173][745]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-08.56.44:184][745]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-10.56.44
-[2017.04.18-08.56.44:187][745]LogWorld: Bringing up level for play took: 0.011864
-[2017.04.18-08.56.44:189][745]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-08.56.44:189][745]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.56.44:225][745]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-08.56.44:228][745]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.2
-[2017.04.18-08.56.44:229][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.56.59:393][926]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.56.59:454][926]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-08.57.25:718][558]LogSavePackage: Save=179.22ms
-[2017.04.18-08.57.25:718][558]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto6AA01644848E9D477D896B99BE5BCE272.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
-[2017.04.18-08.57.25:722][558]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
-[2017.04.18-08.57.25:727][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.244
-[2017.04.18-08.57.25:727][558]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.244
-[2017.04.18-08.57.25:731][558]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
-[2017.04.18-08.57.25:761][558]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
-[2017.04.18-08.57.25:761][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
-[2017.04.18-08.57.25:957][558]LogSavePackage: Save=188.75ms
-[2017.04.18-08.57.25:957][558]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto6CDD650BF4C78396D253717A4305F611A.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto6.uasset'
-[2017.04.18-08.57.25:968][558]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto6.uasset
-[2017.04.18-08.57.25:969][558]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
-[2017.04.18-08.57.25:969][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
-[2017.04.18-08.57.25:985][558]LogSavePackage: Save=10.03ms
-[2017.04.18-08.57.25:985][558]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto673AB7A154CA05A122A44ACA63AD02C53.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto6.uasset'
-[2017.04.18-08.57.25:986][558]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto6.uasset
-[2017.04.18-08.57.25:986][558]LogFileHelpers: Auto-saving content packages took 0.256
-[2017.04.18-08.58.58:138][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
-[2017.04.18-08.58.58:323][114]LogSavePackage: Save=181.81ms
-[2017.04.18-08.58.58:323][114]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter62E7B0AA4A997C22C3752B90C61407DF.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
-[2017.04.18-08.58.58:329][114]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
-[2017.04.18-08.59.01:289][418]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.04.18-09.02.09:609][931]BlueprintLog: New page: Compile SubGoalWidget
-[2017.04.18-09.02.10:299][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/sUBgOALwIDGET" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset" SILENT=true
-[2017.04.18-09.02.10:331][982]LogSavePackage: Save=25.41ms
-[2017.04.18-09.02.10:331][982]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGETC36748F64C291341525A9C9BD17F250B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset'
-[2017.04.18-09.02.10:332][982]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset
-[2017.04.18-09.02.11:867][166]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-09.02.11:900][166]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.02.11:900][166]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.04.18-09.02.11:900][166]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
-[2017.04.18-09.02.12:673][166]LogPlayLevel: PlayLevel: Blueprint regeneration took 773 ms (1 blueprints)
-[2017.04.18-09.02.12:673][166]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 1:02:12 PM)
-[2017.04.18-09.02.12:673][166]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-09.02.12:697][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023650s)
-[2017.04.18-09.02.12:698][166]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-09.02.12:698][166]LogPlayLevel: PIE: World Init took: (0.001529s)
-[2017.04.18-09.02.12:699][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025734s)
-[2017.04.18-09.02.12:730][166]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-09.02.12:737][166]LogInit: FAudioDevice initialized.
-[2017.04.18-09.02.12:777][166]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-09.02.12:781][166]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-11.02.12
-[2017.04.18-09.02.12:782][166]LogWorld: Bringing up level for play took: 0.004488
-[2017.04.18-09.02.12:783][166]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-09.02.12:783][166]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.02.12:800][166]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.02.12:802][166]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.774
-[2017.04.18-09.02.12:802][166]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.02.54:454][ 91]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.02.54:502][ 91]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.03.57:026][576]BlueprintLog: New page: Compile SubGoalWidget
-[2017.04.18-09.03.58:460][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/sUBgOALwIDGET" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset" SILENT=true
-[2017.04.18-09.03.58:488][715]LogSavePackage: Save=24.26ms
-[2017.04.18-09.03.58:488][715]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGET647CC9F24FE9A6386ED208BB9903175F.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset'
-[2017.04.18-09.03.58:489][715]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset
-[2017.04.18-09.03.59:975][893]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-09.03.59:999][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.03.59:999][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.18-09.03.59:999][893]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 1:03:59 PM)
-[2017.04.18-09.03.59:999][893]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-09.04.00:021][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022298s)
-[2017.04.18-09.04.00:022][893]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-09.04.00:022][893]LogPlayLevel: PIE: World Init took: (0.000872s)
-[2017.04.18-09.04.00:023][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023422s)
-[2017.04.18-09.04.00:051][893]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-09.04.00:056][893]LogInit: FAudioDevice initialized.
-[2017.04.18-09.04.00:094][893]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-09.04.00:098][893]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-11.04.00
-[2017.04.18-09.04.00:099][893]LogWorld: Bringing up level for play took: 0.004534
-[2017.04.18-09.04.00:100][893]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-09.04.00:100][893]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.04.00:117][893]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.04.00:118][893]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.091
-[2017.04.18-09.04.00:119][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.04.10:039][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.04.10:084][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.04.18:884][110]BlueprintLog: New page: Compile SubGoalWidget
-[2017.04.18-09.04.19:456][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/sUBgOALwIDGET" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset" SILENT=true
-[2017.04.18-09.04.19:490][152]LogSavePackage: Save=30.17ms
-[2017.04.18-09.04.19:490][152]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGET8D35618B496DA957E252AB800FC1B8B7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset'
-[2017.04.18-09.04.19:491][152]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/sUBgOALwIDGET.uasset
-[2017.04.18-09.08.19:709][944]LogSavePackage: Save=191.99ms
-[2017.04.18-09.08.19:709][944]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto7160A51A8404478525BBDD79D04514EF4.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
-[2017.04.18-09.08.19:710][944]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap
-[2017.04.18-09.08.19:711][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.471
-[2017.04.18-09.08.19:711][944]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.471
-[2017.04.18-09.08.19:713][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
-[2017.04.18-09.08.19:713][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
-[2017.04.18-09.08.19:730][944]LogSavePackage: Save=10.30ms
-[2017.04.18-09.08.19:730][944]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto713708AB84B71241B98D41CB6265780F9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto7.uasset'
-[2017.04.18-09.08.19:731][944]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto7.uasset
-[2017.04.18-09.08.19:731][944]LogFileHelpers: Auto-saving content packages took 0.018
-[2017.04.18-09.08.53:103][433]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-09.08.53:127][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.08.53:127][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.04.18-09.08.53:127][433]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 1:08:53 PM)
-[2017.04.18-09.08.53:127][433]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-09.08.53:148][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019554s)
-[2017.04.18-09.08.53:148][433]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-09.08.53:148][433]LogPlayLevel: PIE: World Init took: (0.000876s)
-[2017.04.18-09.08.53:149][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020723s)
-[2017.04.18-09.08.53:175][433]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-09.08.53:181][433]LogInit: FAudioDevice initialized.
-[2017.04.18-09.08.53:215][433]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-09.08.53:220][433]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-11.08.53
-[2017.04.18-09.08.53:221][433]LogWorld: Bringing up level for play took: 0.004482
-[2017.04.18-09.08.53:222][433]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-09.08.53:222][433]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.08.53:238][433]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.08.53:240][433]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.213
-[2017.04.18-09.08.53:240][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.09.08:377][235]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array NearbyPickupActor of length 0!
-[2017.04.18-09.09.09:786][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.09.09:833][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.10.57:948][222]BlueprintLog: New page: Compile Quest_Test2
-[2017.04.18-09.10.58:637][278]LogSavePackage: Save=10.30ms
-[2017.04.18-09.10.58:637][278]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Quest_Test2E16A3A334318A6C4913C8E8CC79AED57.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test2.uasset'
-[2017.04.18-09.10.58:638][278]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test2.uasset
-[2017.04.18-09.11.23:386][463]BlueprintLog: New page: Compile Quest_Test1
-[2017.04.18-09.11.23:929][502]LogSavePackage: Save=9.14ms
-[2017.04.18-09.11.23:929][502]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Quest_Test1C31ADFFE430422CA08D663A27B098E28.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset'
-[2017.04.18-09.11.23:930][502]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset
-[2017.04.18-09.12.20:227][676]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.04.18-09.12.37:219][560]BlueprintLog: New page: Compile Ch_MyCharacter
-[2017.04.18-09.12.37:347][560]LogBlueprint:Error: [Compiler Ch_MyCharacter] Error This blueprint (self) is not a BP_QuestManager_C, therefore ' Target ' must have a connection.
-[2017.04.18-09.12.38:196][560]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a BP_QuestManager_C, therefore ' Target ' must have a connection.
-[2017.04.18-09.12.38:197][560]LogBlueprint:Warning: [Compiler Ch_MyCharacter] Warning [5696.01] Compile of Ch_MyCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 977 ms] (/Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter)
-[2017.04.18-09.12.39:019][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
-[2017.04.18-09.12.39:205][613]LogSavePackage: Save=177.70ms
-[2017.04.18-09.12.39:205][613]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacterCAF696D3406FB2AED03BA58140561BF5.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
-[2017.04.18-09.12.39:206][613]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
-[2017.04.18-09.12.53:088][272]BlueprintLog: New page: Compile Ch_MyCharacter
-[2017.04.18-09.12.55:224][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
-[2017.04.18-09.12.55:414][383]LogSavePackage: Save=187.02ms
-[2017.04.18-09.12.55:415][383]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacterF23A4C5D41EEEC6B1B711BABFC50999B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
-[2017.04.18-09.12.55:417][383]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
-[2017.04.18-09.13.29:270][165]LogTemp: Repeting last play command: Selected Viewport
-[2017.04.18-09.13.29:295][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.13.29:295][165]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.04.18-09.13.29:295][165]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
-[2017.04.18-09.13.30:107][165]LogPlayLevel: PlayLevel: Blueprint regeneration took 811 ms (1 blueprints)
-[2017.04.18-09.13.30:107][165]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 1:13:30 PM)
-[2017.04.18-09.13.30:107][165]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2017.04.18-09.13.30:132][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024849s)
-[2017.04.18-09.13.30:133][165]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.04.18-09.13.30:133][165]LogPlayLevel: PIE: World Init took: (0.001302s)
-[2017.04.18-09.13.30:133][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026465s)
-[2017.04.18-09.13.30:160][165]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.04.18-09.13.30:166][165]LogInit: FAudioDevice initialized.
-[2017.04.18-09.13.30:221][165]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.04.18-09.13.30:229][165]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-11.13.30
-[2017.04.18-09.13.30:231][165]LogWorld: Bringing up level for play took: 0.007283
-[2017.04.18-09.13.30:233][165]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
-[2017.04.18-09.13.30:233][165]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.13.30:267][165]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
-[2017.04.18-09.13.30:267][165]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.239
-[2017.04.18-09.13.30:268][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.15.38:622][403]LogSavePackage: Save=278.04ms
-[2017.04.18-09.15.38:622][403]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap10B5D2DF455B983B2D45B1B9062C7A74.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2017.04.18-09.15.38:628][403]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2017.04.18-09.15.39:210][403]LogSavePackage: Save=432.70ms
-[2017.04.18-09.15.39:211][403]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_BuiltData140BE31D4A67A401D32EF5AEA0E1D98C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2017.04.18-09.15.39:212][403]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
-[2017.04.18-09.15.49:459][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2017.04.18-09.15.49:588][ 81]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.121 s
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: === Handled ensure: ===
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: 
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 755]
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: Type mismatch: Expected ThirdPersonExampleMap_C, Found REINST_ThirdPersonExampleMap_C_722
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: Stack: 
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD5995E6
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD349B82
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000BD35B666
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000B134F281
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000B2128E91
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000AFF22CCD
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000AFEDE8CE
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000AFA07A9F
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000B0212086
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor.exe!0x00000000F0EDDEE3
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor.exe!0x00000000F0ECEB40
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor.exe!0x00000000F0ECEBBA
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor.exe!0x00000000F0EE0A29
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: UE4Editor.exe!0x00000000F0EE22B6
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EF3E8364
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: ntdll.dll!0x00000000F1E870D1
-[2017.04.18-09.15.49:588][ 81]LogOutputDevice:Error: 
-[2017.04.18-09.15.49:594][ 81]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.18-15.11.46:807][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-15.11.46:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.18-15.11.46:870][  0]LogInit: Computer: DESKTOP-IJKOIIJ
+[2017.04.18-15.11.46:870][  0]LogInit: User: Aratim
+[2017.04.18-15.11.46:870][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.18-15.11.46:870][  0]LogInit: High frequency timer resolution =3.417988 MHz
+[2017.04.18-15.11.46:871][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.04.18-15.11.46:871][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.18-15.11.46:871][  0]LogMemory: Process Physical Memory: 263.15 MB used, 263.15 MB peak
+[2017.04.18-15.11.46:871][  0]LogMemory: Process Virtual Memory: 262.45 MB used, 262.45 MB peak
+[2017.04.18-15.11.46:871][  0]LogMemory: Physical Memory: 3076.64 MB used,  5064.21 MB free, 8140.85 MB total
+[2017.04.18-15.11.46:871][  0]LogMemory: Virtual Memory: 644.41 MB used,  5064.21 MB free, 134217728.00 MB total
+[2017.04.18-15.11.47:285][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.18-15.11.49:413][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.18-15.11.49:926][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.04.18-15.11.49:926][  0]LogD3D11RHI:       6084/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.18-15.11.49:927][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.18-15.11.49:927][  0]LogD3D11RHI:       0/0/4070 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.18-15.11.49:927][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.18-15.11.49:932][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.18-15.11.49:932][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.18-15.11.49:932][  0]LogWindows: EnumDisplayDevices:
+[2017.04.18-15.11.49:932][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.04.18-15.11.49:932][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.18-15.11.49:933][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.18-15.11.49:933][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.04.18-15.11.49:933][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.18-15.11.49:933][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.04.18-15.11.49:933][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.04.18-15.11.49:933][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.04.18-15.11.49:934][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.18-15.11.50:431][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.18-15.11.50:495][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.18-15.11.50:557][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Intermediate/Shaders/WorkingDirectory/7972/).
+[2017.04.18-15.11.50:557][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aratim/AppData/Local/Temp/UnrealShaderWorkingDir/7C0294234F28F7B195168AAB15E8F4B0/'.
+[2017.04.18-15.11.50:558][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.18-15.11.52:884][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.18-15.11.52:937][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.18-15.11.52:987][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.18-15.11.53:041][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.18-15.11.53:096][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.18-15.11.53:148][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.18-15.11.53:197][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.18-15.11.53:251][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.18-15.11.53:298][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.18-15.11.53:353][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.18-15.11.53:398][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.18-15.11.53:444][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.18-15.11.53:491][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.18-15.11.53:535][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.18-15.11.53:583][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.18-15.11.54:131][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.18-15.11.54:132][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.18-15.11.54:164][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.18-15.11.54:481][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.18-15.11.54:512][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.18-15.11.54:560][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.18-15.11.54:608][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.18-15.11.54:653][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.18-15.11.54:705][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.18-15.11.54:705][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.18-15.11.55:355][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.18-15.11.55:565][  0]LogDerivedDataCache: Loaded boot cache 0.21s 50MB C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.18-15.11.55:565][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.18-15.11.55:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.18-15.11.55:565][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.18-15.11.55:565][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.18-15.11.55:565][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.18-15.11.55:592][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.18-15.11.55:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aratim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.18-15.11.55:629][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.18-15.11.55:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-15.11.55:643][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.18-15.11.58:763][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.18-15.11.58:773][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.18-15.11.59:039][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.18-15.11.59:079][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.18-15.11.59:125][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.18-15.11.59:125][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.18-15.11.59:125][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.18-15.12.00:689][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: isekailife, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 721096836
+[2017.04.18-15.12.00:744][  0]LogAssetRegistry: FAssetRegistry took 0.0238 seconds to start up
+[2017.04.18-15.12.00:788][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.022594 seconds
+[2017.04.18-15.12.00:793][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.18-15.12.00:793][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.18-15.12.00:793][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.18-15.12.00:862][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.18-15.12.03:907][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.18-15.12.03:945][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.18-15.12.05:009][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.18-15.12.05:493][  0]SourceControl: Info Source control is disabled
+[2017.04.18-15.12.05:495][  0]SourceControl: Info Source control is disabled
+[2017.04.18-15.12.05:542][  0]SourceControl: Info Source control is disabled
+[2017.04.18-15.12.05:584][  0]SourceControl: Info Source control is disabled
+[2017.04.18-15.12.06:876][  0]LogEngine: Initializing Engine...
+[2017.04.18-15.12.06:877][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.18-15.12.07:240][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.18-15.12.07:261][  0]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.18-15.12.07:272][  0]LogInit: FAudioDevice initialized.
+[2017.04.18-15.12.07:301][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Aratim/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.18-15.12.07:310][  0]LogInit: Texture streaming: Enabled
+[2017.04.18-15.12.07:395][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.18-15.12.07:482][  0]LogInit: Transaction tracking system initialized
+[2017.04.18-15.12.07:827][  0]BlueprintLog: New page: Editor Load
+[2017.04.18-15.12.08:674][  0]LocalizationService: Info Localization service is disabled
+[2017.04.18-15.12.09:303][  0]LogConsoleResponse:Display: 
+[2017.04.18-15.12.09:640][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.18-15.12.09:640][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.18-15.12.09:838][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/' took 0.03s
+[2017.04.18-15.12.10:667][  0]SourceControl: Info Source control is disabled
+[2017.04.18-15.12.10:671][  0]Cmd: MAP LOAD FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.18-15.12.10:673][  0]LightingResults: New page: Lighting Build
+[2017.04.18-15.12.10:712][  0]MapCheck: New page: Map Check
+[2017.04.18-15.12.10:712][  0]LightingResults: New page: Lighting Build
+[2017.04.18-15.12.18:851][  0]LogSpawn:Warning: UWorld::DestroyActor: World has no context! World: ThirdPersonExampleMap, Actor: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_MapCapture_C_CHILDACTOR_43
+[2017.04.18-15.12.20:057][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.18-15.12.20:122][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.18-15.12.20:124][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.18-15.12.20:179][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.701ms to complete.
+[2017.04.18-15.12.20:179][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 9.510
+[2017.04.18-15.12.20:501][  0]LogCollectionManager: Loaded 0 collections in 0.010912 seconds
+[2017.04.18-15.12.20:598][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Collections/' took 0.01s
+[2017.04.18-15.12.20:598][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Developers/Aratim/Collections/' took 0.01s
+[2017.04.18-15.12.20:598][  0]LogFileCache: Scanning file cache for directory 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Collections/' took 0.01s
+[2017.04.18-15.12.20:598][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.04.18-15.12.20:611][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2245 classes and 453 folders.
+[2017.04.18-15.12.20:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.18-15.12.20:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.18-15.12.20:677][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.18-15.12.21:020][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.18-15.12.21:073][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.18-15.12.21:340][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.18-15.12.21:354][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.18-15.12.21:434][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.18-15.12.21:435][  0]LogLoad: (Engine Initialization) Total time: 39.09 seconds
+[2017.04.18-15.12.21:435][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.63 seconds
+[2017.04.18-15.12.21:435][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.18-15.12.21:435][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.18-15.12.21:780][  0]LogOcInput: OculusInput pre-init called
+[2017.04.18-15.12.21:826][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.18-15.12.21:837][  0]LogSlate: Took 0.007217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.18-15.12.21:851][  0]LogSlate: Took 0.007071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.18-15.12.21:870][  0]LogSlate: Took 0.007734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.18-15.12.22:128][  0]LogSlate: Took 0.004597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.18-15.12.22:154][  0]LogRenderer: Reallocating scene render targets to support 300x300 NumSamples 1 (Frame:2).
+[2017.04.18-15.12.22:179][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.04.18-15.12.22:955][  3]LogSlate: Took 0.000447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.18-15.12.23:942][  6]LogAssetRegistry: Asset discovery search completed in 23.2199 seconds
+[2017.04.18-15.12.23:947][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000015 seconds (found 0 objects)
+[2017.04.18-15.12.23:947][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.004423 seconds (updated 0 objects)
+[2017.04.18-15.22.21:640][799]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.18-15.22.21:766][799]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.083
+[2017.04.18-15.22.22:006][799]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
+[2017.04.18-15.22.22:008][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
+[2017.04.18-15.22.22:150][799]LogSavePackage: Save=29.42ms
+[2017.04.18-15.22.22:150][799]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto1AD94525B465274D850004F882A7F280E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto1.uasset'
+[2017.04.18-15.22.22:186][799]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto1.uasset
+[2017.04.18-15.22.22:186][799]LogFileHelpers: Auto-saving content packages took 0.418
+[2017.04.18-15.37.46:825][669]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.04.18-15.37.47:428][669]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.18-15.37.56:077][290]LogSlate: Took 0.005082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.18-15.38.03:200][655]LogSlate: Took 0.007750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.18-15.38.36:769][260]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1938).
+[2017.04.18-15.40.36:684][307]BlueprintLog: New page: Compile BP_GoalActor
+[2017.04.18-15.40.37:839][412]LogSavePackage: Save=12.87ms
+[2017.04.18-15.40.37:840][412]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_GoalActor9376457543C0D8C6C1459BB63078DFCA.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_GoalActor.uasset'
+[2017.04.18-15.40.37:843][412]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_GoalActor.uasset
+[2017.04.18-15.43.03:531][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.020
+[2017.04.18-15.43.03:532][767]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/MiniMap] ([1] browsable assets)...
+[2017.04.18-15.43.03:532][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/MiniMap]
+[2017.04.18-15.43.03:548][767]LogSavePackage: Save=8.66ms
+[2017.04.18-15.43.03:548][767]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MiniMap_Auto204819B244C6505CFD95436A48C9D9F26.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/MiniMap_Auto2.uasset'
+[2017.04.18-15.43.03:566][767]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/MiniMap_Auto2.uasset
+[2017.04.18-15.43.03:566][767]LogFileHelpers: Auto-saving content packages took 0.035
+[2017.04.18-15.43.21:501][558]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV3\DistanceBorder.png)
+[2017.04.18-15.43.21:521][558]LogTexture:Display: Building textures: DistanceBorder (AutoDXT, 180X60) - 136 MB total VRAM
+[2017.04.18-15.43.21:574][558]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV3\GoalCircle.png)
+[2017.04.18-15.43.21:584][558]LogTexture:Display: Building textures: GoalCircle (AutoDXT, 500X500) - 136 MB total VRAM
+[2017.04.18-15.43.21:622][558]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV3\MapArrow.png)
+[2017.04.18-15.43.21:628][558]LogTexture:Display: Building textures: MapArrow (BGRA8, 20X30) - 136 MB total VRAM
+[2017.04.18-15.43.21:634][558]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV3\StepsIcon.png)
+[2017.04.18-15.43.21:636][558]LogTexture:Display: Building textures: StepsIcon (AutoDXT, 128X128) - 136 MB total VRAM
+[2017.04.18-15.43.45:103][203]LogTexture:Display: Building textures: DistanceBorder (BGRA8, 180X60) - 136 MB total VRAM
+[2017.04.18-15.43.45:109][203]LogTexture:Display: Building textures: GoalCircle (BGRA8, 500X500) - 136 MB total VRAM
+[2017.04.18-15.43.45:139][203]LogTexture:Display: Building textures: StepsIcon (BGRA8, 128X128) - 137 MB total VRAM
+[2017.04.18-15.43.47:832][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/DistanceBorder" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/DistanceBorder.uasset" SILENT=true
+[2017.04.18-15.43.47:839][524]LogSavePackage: Save=6.15ms
+[2017.04.18-15.43.47:839][524]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/DistanceBorder3B609D7E447592D5B1D6E2BCEA8DE30E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/DistanceBorder.uasset'
+[2017.04.18-15.43.47:840][524]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/DistanceBorder.uasset
+[2017.04.18-15.43.47:850][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/GoalCircle" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/GoalCircle.uasset" SILENT=true
+[2017.04.18-15.43.47:869][524]LogSavePackage: Save=17.50ms
+[2017.04.18-15.43.47:869][524]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/GoalCircle3C02385C4451990C585BFB9E7C59555E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/GoalCircle.uasset'
+[2017.04.18-15.43.47:870][524]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/GoalCircle.uasset
+[2017.04.18-15.43.47:873][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/MapArrow" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/MapArrow.uasset" SILENT=true
+[2017.04.18-15.43.47:896][524]LogSavePackage: Save=22.21ms
+[2017.04.18-15.43.47:896][524]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapArrow28E3E63A47529FCBA52D139C663B89DE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/MapArrow.uasset'
+[2017.04.18-15.43.47:897][524]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/MapArrow.uasset
+[2017.04.18-15.43.47:902][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/StepsIcon" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/StepsIcon.uasset" SILENT=true
+[2017.04.18-15.43.47:909][524]LogSavePackage: Save=5.56ms
+[2017.04.18-15.43.47:909][524]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/StepsIconFDF0C2C041F677273CC48088C3AF99ED.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/StepsIcon.uasset'
+[2017.04.18-15.43.47:910][524]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/StepsIcon.uasset
+[2017.04.18-15.46.54:368][386]BlueprintLog: New page: Compile MiniMap
+[2017.04.18-15.46.55:407][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/MiniMap" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/MiniMap.uasset" SILENT=true
+[2017.04.18-15.46.55:419][430]LogSavePackage: Save=8.49ms
+[2017.04.18-15.46.55:419][430]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MiniMapB78D54AE4747FCFF59B910BA403240FD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/MiniMap.uasset'
+[2017.04.18-15.46.55:428][430]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/MiniMap.uasset
+[2017.04.18-15.51.01:413][781]LogSlate: Took 0.018841 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.18-15.53.00:306][701]BlueprintLog: New page: Compile MainWidget
+[2017.04.18-15.53.01:506][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Widget/MainWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset" SILENT=true
+[2017.04.18-15.53.01:769][754]LogSavePackage: Save=123.31ms
+[2017.04.18-15.53.01:769][754]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidget1EE3A8C64F462E3297AF22B6425CEDA2.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset'
+[2017.04.18-15.53.01:771][754]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset
+[2017.04.18-15.54.13:785][239]LogSlate: Took 0.003492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.04.18-15.57.09:360][817]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2017.04.18-15.57.09:361][817]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
+[2017.04.18-15.57.09:361][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
+[2017.04.18-15.57.09:401][817]LogSavePackage: Save=31.88ms
+[2017.04.18-15.57.09:401][817]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto300CD99E94934BA2D277D05AA93F2D647.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto3.uasset'
+[2017.04.18-15.57.09:401][817]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto3.uasset
+[2017.04.18-15.57.09:401][817]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.04.18-15.57.36:689][522]BlueprintLog: New page: Compile BP_QuestManager
+[2017.04.18-15.57.37:733][600]LogSavePackage: Save=31.60ms
+[2017.04.18-15.57.37:733][600]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManagerAD5A664948C6ADCF955606B300822BE6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
+[2017.04.18-15.57.37:825][600]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
+[2017.04.18-15.59.19:404][302]LogEditorTransaction: Undo Split Struct Pin
+[2017.04.18-15.59.49:753][655]BlueprintLog: New page: Compile BP_QuestManager
+[2017.04.18-15.59.50:542][702]LogSavePackage: Save=35.19ms
+[2017.04.18-15.59.50:542][702]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager2C381B9C4E717F6DF321C9ACC5F85743.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
+[2017.04.18-15.59.50:543][702]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
+[2017.04.18-16.03.19:083][455]BlueprintLog: New page: Compile MainWidget
+[2017.04.18-16.03.20:371][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Widget/MainWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset" SILENT=true
+[2017.04.18-16.03.20:445][500]LogSavePackage: Save=67.35ms
+[2017.04.18-16.03.20:445][500]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MainWidget310A43204341F6223091BEA8219DA06E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset'
+[2017.04.18-16.03.20:446][500]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Widget/MainWidget.uasset
+[2017.04.18-16.08.01:623][443]BlueprintLog: New page: Compile BP_QuestManager
+[2017.04.18-16.11.22:822][814]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2017.04.18-16.11.22:823][814]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
+[2017.04.18-16.11.22:823][814]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
+[2017.04.18-16.11.22:887][814]LogSavePackage: Save=56.03ms
+[2017.04.18-16.11.22:887][814]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto45C83CA5245D0EDCC0AC0F6BEC14A93B0.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto4.uasset'
+[2017.04.18-16.11.22:888][814]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto4.uasset
+[2017.04.18-16.11.22:888][814]LogFileHelpers: Auto-saving content packages took 0.065
+[2017.04.18-16.15.43:680][940]BlueprintLog: New page: Compile BP_QuestManager
+[2017.04.18-16.15.44:929][989]LogSavePackage: Save=89.66ms
+[2017.04.18-16.15.44:929][989]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManagerF13F31B740F56B8B075DB8B56DC61A49.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
+[2017.04.18-16.15.44:931][989]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
+[2017.04.18-16.19.51:736][235]BlueprintLog: New page: Compile Ch_MyCharacter
+[2017.04.18-16.19.53:590][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Character/Player/Ch_MyCharacter" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset" SILENT=true
+[2017.04.18-16.19.53:835][286]LogSavePackage: Save=194.25ms
+[2017.04.18-16.19.53:835][286]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacterA48CD5A541280324DFCB1AB6C88D9D90.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset'
+[2017.04.18-16.19.53:854][286]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/Game/Character/Player/Ch_MyCharacter.uasset
+[2017.04.18-16.20.35:436][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.04.18-16.20.38:103][643]LogEditorViewport: Clicking on Actor (LMB): BP_GoalActor_C (BP_GoalActor)
+[2017.04.18-16.20.58:267][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2017.04.18-16.21.17:530][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2017.04.18-16.21.27:329][176]Cmd: TRANSACTION UNDO
+[2017.04.18-16.21.27:329][176]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.18-16.21.29:091][369]Cmd: TRANSACTION UNDO
+[2017.04.18-16.21.29:091][369]LogEditorTransaction: Undo Move Actors
+[2017.04.18-16.21.30:071][483]Cmd: TRANSACTION UNDO
+[2017.04.18-16.21.30:071][483]LogEditorTransaction: Undo Move Actors
+[2017.04.18-16.21.38:006][393]LogEditorViewport: Clicking on Actor (LMB): BP_GoalActor_C (BP_GoalActor)
+[2017.04.18-16.22.20:116][160]BlueprintLog: New page: Compile Quest_Test1
+[2017.04.18-16.22.20:861][202]LogSavePackage: Save=9.12ms
+[2017.04.18-16.22.20:861][202]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Quest_Test17A69A62E4E0366D0F8602BB5FEB902C1.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset'
+[2017.04.18-16.22.20:862][202]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset
+[2017.04.18-16.22.38:863][483]LogEditorViewport: Clicking on Actor (LMB): BP_GoalActor_C (BP_GoalActor)
+[2017.04.18-16.22.40:163][637]Cmd: DELETE
+[2017.04.18-16.22.40:163][637]Cmd: ACTOR DELETE
+[2017.04.18-16.22.40:170][637]LogEditorActor: Deleted Actor: BP_GoalActor_C
+[2017.04.18-16.22.40:192][637]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.04.18-16.22.43:481][783]LogSavePackage: Save=192.88ms
+[2017.04.18-16.22.43:481][783]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap2307D86F4430AA10F210329043AEE6DA.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.18-16.22.43:485][783]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.18-16.22.44:360][783]LogSavePackage: Save=498.82ms
+[2017.04.18-16.22.44:360][783]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_BuiltData817C2B5E41F2C5A2AA2BC3BDEB57D265.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.18-16.22.44:377][783]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.18-16.22.55:937][ 59]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.18-16.22.55:972][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.22.55:973][ 59]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.18-16.22.55:973][ 59]LogPlayLevel: [PlayLevel] Compiling Ch_MyCharacter before play...
+[2017.04.18-16.22.56:844][ 59]LogPlayLevel: PlayLevel: Blueprint regeneration took 870 ms (1 blueprints)
+[2017.04.18-16.22.56:853][ 59]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 8:22:56 PM)
+[2017.04.18-16.22.56:854][ 59]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.18-16.22.56:893][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039095s)
+[2017.04.18-16.22.56:894][ 59]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.18-16.22.56:894][ 59]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2017.04.18-16.22.56:895][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040822s)
+[2017.04.18-16.22.56:922][ 59]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.18-16.22.56:929][ 59]LogInit: FAudioDevice initialized.
+[2017.04.18-16.22.57:061][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.04.18-16.22.57:068][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4274.73] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 17 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.04.18-16.22.57:069][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4274.73] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.04.18-16.22.57:069][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4274.73] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.04.18-16.22.57:091][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2017.04.18-16.22.57:099][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4274.76] Compile of ThirdPersonCharacter successful, but with 1 Warning(s) [in 16 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.04.18-16.22.57:099][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4274.76] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.04.18-16.22.57:099][ 59]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4274.76] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.04.18-16.22.57:124][ 59]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.18-16.22.57:136][ 59]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-18.22.57
+[2017.04.18-16.22.57:158][ 59]LogWorld: Bringing up level for play took: 0.032215
+[2017.04.18-16.22.57:314][ 59]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.04.18-16.22.57:320][ 59]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
+[2017.04.18-16.22.57:321][ 59]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.18-16.22.57:351][ 59]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.18-16.22.57:354][ 59]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.748
+[2017.04.18-16.22.57:355][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.23.44:630][702]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.23.44:689][702]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.23.49:981][321]BlueprintLog: New page: Compile Quest_Test1
+[2017.04.18-16.23.50:675][372]LogSavePackage: Save=9.00ms
+[2017.04.18-16.23.50:675][372]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Quest_Test19DC3D7C2470301F88C32E0ACEF8198B4.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset'
+[2017.04.18-16.23.50:676][372]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/Quest_Test1.uasset
+[2017.04.18-16.23.52:208][555]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.18-16.23.52:233][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.23.52:233][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.18-16.23.52:233][555]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 18, 2017, 8:23:52 PM)
+[2017.04.18-16.23.52:233][555]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.18-16.23.52:255][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021435s)
+[2017.04.18-16.23.52:256][555]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.18-16.23.52:256][555]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.04.18-16.23.52:256][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023017s)
+[2017.04.18-16.23.52:283][555]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.18-16.23.52:289][555]LogInit: FAudioDevice initialized.
+[2017.04.18-16.23.52:322][555]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.18-16.23.52:327][555]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.18-18.23.52
+[2017.04.18-16.23.52:327][555]LogWorld: Bringing up level for play took: 0.004166
+[2017.04.18-16.23.52:328][555]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
+[2017.04.18-16.23.52:328][555]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.18-16.23.52:345][555]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.18-16.23.52:345][555]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.261
+[2017.04.18-16.23.52:345][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.24.07:671][382]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.18-16.24.07:711][382]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
