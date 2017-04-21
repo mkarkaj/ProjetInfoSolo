@@ -3003,3 +3003,255 @@ LogInit: Object subsystem initialized
 [2017.04.21-10.54.10:406][571]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
 [2017.04.21-10.54.32:515][219]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
 [2017.04.21-10.54.32:596][219]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.21-13.15.15:319][547]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV6\QuestPackV6\EnemyBarDef.png)
+[2017.04.21-13.15.15:361][547]LogTexture:Display: Building textures: EnemyBarDef (BGRA8, 241X34) - 188 MB total VRAM
+[2017.04.21-13.15.15:385][547]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV6\QuestPackV6\EnemyBarFill.png)
+[2017.04.21-13.15.15:391][547]LogTexture:Display: Building textures: EnemyBarFill (BGRA8, 241X34) - 188 MB total VRAM
+[2017.04.21-13.15.15:403][547]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 X:\Téléchargement\QuestPackV6\QuestPackV6\enemyBorder.png)
+[2017.04.21-13.15.15:408][547]LogTexture:Display: Building textures: enemyBorder (BGRA8, 264X89) - 188 MB total VRAM
+[2017.04.21-13.16.07:781][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/EnemyBarDef" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/EnemyBarDef.uasset" SILENT=true
+[2017.04.21-13.16.07:789][277]LogSavePackage: Save=6.88ms
+[2017.04.21-13.16.07:789][277]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/EnemyBarDefDBA8AEBE483499CCF767CCA4449D6671.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/EnemyBarDef.uasset'
+[2017.04.21-13.16.07:790][277]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/EnemyBarDef.uasset
+[2017.04.21-13.16.07:794][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/EnemyBarFill" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/EnemyBarFill.uasset" SILENT=true
+[2017.04.21-13.16.07:800][277]LogSavePackage: Save=4.59ms
+[2017.04.21-13.16.07:800][277]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/EnemyBarFillD192B35F4B9001C6DC6B5A850FF36628.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/EnemyBarFill.uasset'
+[2017.04.21-13.16.07:801][277]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/EnemyBarFill.uasset
+[2017.04.21-13.16.07:806][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Textures/enemyBorder" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/enemyBorder.uasset" SILENT=true
+[2017.04.21-13.16.07:814][277]LogSavePackage: Save=6.31ms
+[2017.04.21-13.16.07:814][277]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/enemyBorderAC8CB7FE435C36F159FA5CBFD0C08380.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/enemyBorder.uasset'
+[2017.04.21-13.16.07:815][277]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Textures/enemyBorder.uasset
+[2017.04.21-13.17.18:713][127]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/QuestSystem/Widgets/EnemyWidget.
+[2017.04.21-13.25.48:516][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.055
+[2017.04.21-13.25.48:517][531]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/EnemyWidget] ([1] browsable assets)...
+[2017.04.21-13.25.48:517][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/EnemyWidget]
+[2017.04.21-13.25.48:527][531]LogSavePackage: Save=9.13ms
+[2017.04.21-13.25.48:527][531]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/EnemyWidget_Auto4D8FF83204EBE1444E1C67F981D7F317C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/EnemyWidget_Auto4.uasset'
+[2017.04.21-13.25.48:528][531]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/EnemyWidget_Auto4.uasset
+[2017.04.21-13.25.48:528][531]LogFileHelpers: Auto-saving content packages took 0.011
+[2017.04.21-13.33.57:353][249]BlueprintLog: New page: Compile EnemyWidget
+[2017.04.21-13.33.58:043][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/EnemyWidget" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/EnemyWidget.uasset" SILENT=true
+[2017.04.21-13.33.58:055][299]LogSavePackage: Save=10.83ms
+[2017.04.21-13.33.58:055][299]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/EnemyWidget214DA15A45FC1F0E6ED50FAB4A38BF0C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/EnemyWidget.uasset'
+[2017.04.21-13.33.58:060][299]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/EnemyWidget.uasset
+[2017.04.21-13.33.58:129][307]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/QuestSystem/Widgets/EnemyWidget.
+[2017.04.21-13.34.36:423][789]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.21-13.36.16:236][ 35]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.36.17:233][ 76]LogSavePackage: Save=46.79ms
+[2017.04.21-13.36.17:233][ 76]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_EnemyB739576A4E18B9F174053B874F39D41B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.36.17:235][ 76]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.36.24:614][488]LogSavePackage: Save=200.37ms
+[2017.04.21-13.36.24:614][488]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto526AC887E4D2215FF70833F815900A5FF.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.04.21-13.36.24:620][488]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.04.21-13.36.24:626][488]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.261
+[2017.04.21-13.36.24:626][488]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.261
+[2017.04.21-13.36.24:628][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy] ([1] browsable assets)...
+[2017.04.21-13.36.24:634][488]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.Master_Enemy]
+[2017.04.21-13.36.24:634][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy]
+[2017.04.21-13.36.24:685][488]LogSavePackage: Save=47.77ms
+[2017.04.21-13.36.24:685][488]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_Enemy_Auto53A06B896407EABBB35D72DA993D65DF5.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy_Auto5.uasset'
+[2017.04.21-13.36.24:685][488]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy_Auto5.uasset
+[2017.04.21-13.36.24:686][488]LogFileHelpers: Auto-saving content packages took 0.058
+[2017.04.21-13.37.19:670][234]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.37.20:718][287]LogSavePackage: Save=45.56ms
+[2017.04.21-13.37.20:718][287]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_Enemy8534C4BA4B491DAD267A689B88884DFC.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.37.20:723][287]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.37.50:923][732]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.37.51:517][768]LogSavePackage: Save=47.18ms
+[2017.04.21-13.37.51:517][768]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_EnemyD1A8AE2E428B45D8DAECDF8A94C49B53.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.37.51:519][768]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.38.41:619][909]LogEditorTransaction: Undo Move Node
+[2017.04.21-13.43.59:580][849]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.44.00:589][891]LogSavePackage: Save=57.06ms
+[2017.04.21-13.44.00:589][891]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_Enemy39E27279437A5D4135FA1B896C99DE16.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.44.00:590][891]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.47.56:302][202]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.47.57:467][243]LogSavePackage: Save=70.32ms
+[2017.04.21-13.47.57:467][243]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_EnemyA5ABCAF14BCD25C95027E4A0098459AD.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.47.57:469][243]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.48.59:993][194]LogSavePackage: Save=198.24ms
+[2017.04.21-13.48.59:993][194]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto6D12C1CEE45832D4583ADC38E65D48214.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2017.04.21-13.48.59:995][194]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2017.04.21-13.48.59:996][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.240
+[2017.04.21-13.48.59:996][194]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.240
+[2017.04.21-13.48.59:999][194]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy] ([1] browsable assets)...
+[2017.04.21-13.49.00:005][194]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.Master_Enemy]
+[2017.04.21-13.49.00:005][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy]
+[2017.04.21-13.49.00:076][194]LogSavePackage: Save=65.22ms
+[2017.04.21-13.49.00:076][194]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_Enemy_Auto679BA545E4AA64A01F0A646B53380B2D6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy_Auto6.uasset'
+[2017.04.21-13.49.00:076][194]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Character/Enemies/Master_Enemy_Auto6.uasset
+[2017.04.21-13.49.00:076][194]LogFileHelpers: Auto-saving content packages took 0.079
+[2017.04.21-13.49.04:571][417]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.49.05:344][474]LogSavePackage: Save=63.81ms
+[2017.04.21-13.49.05:344][474]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_Enemy3D7B26394B87C3B74FAAB789F8C36E1C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.49.05:350][474]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.49.06:019][551]LogTemp: Repeting last play command: Selected Viewport
+[2017.04.21-13.49.06:039][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.21-13.49.06:039][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.21-13.49.06:039][551]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 21, 2017, 5:49:06 PM)
+[2017.04.21-13.49.06:039][551]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.04.21-13.49.06:066][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027005s)
+[2017.04.21-13.49.06:067][551]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.04.21-13.49.06:068][551]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2017.04.21-13.49.06:068][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028548s)
+[2017.04.21-13.49.06:097][551]LogInit: XAudio2 using 'Haut-parleurs (2- USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.21-13.49.06:104][551]LogInit: FAudioDevice initialized.
+[2017.04.21-13.49.06:144][551]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.04.21-13.49.06:150][551]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.04.21-15.49.06
+[2017.04.21-13.49.06:151][551]LogWorld: Bringing up level for play took: 0.006329
+[2017.04.21-13.49.06:152][551]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/MyCharSave.sav' error.
+[2017.04.21-13.49.06:152][551]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.21-13.49.06:173][551]LogStreaming:Warning: Failed to read file 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved//SaveGames/InventorySave.sav' error.
+[2017.04.21-13.49.06:180][551]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.023
+[2017.04.21-13.49.06:180][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.21-13.49.59:692][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.21-13.49.59:790][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.04.21-13.53.48:203][ 91]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.21-13.55.56:105][365]BlueprintLog: New page: Compile Master_Enemy
+[2017.04.21-13.55.56:849][411]LogSavePackage: Save=65.71ms
+[2017.04.21-13.55.56:849][411]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Master_Enemy9E4F267F481A9E34221FC1AB2B8EBA8E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset'
+[2017.04.21-13.55.56:851][411]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Character/Enemies/Master_Enemy.uasset
+[2017.04.21-13.59.55:011][597]LogSavePackage: Save=221.50ms
+[2017.04.21-13.59.55:011][597]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto7862454CF4F10003C3CBCCAB6ACDEA857.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2017.04.21-13.59.55:013][597]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap
+[2017.04.21-13.59.55:014][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.512
+[2017.04.21-13.59.55:014][597]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.512
+[2017.04.21-14.11.54:125][207]LogSavePackage: Save=196.74ms
+[2017.04.21-14.11.54:125][207]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap7B5094754C6E5CFCF9EA08BB08131458.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.21-14.11.54:127][207]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.21-14.11.54:459][207]LogSavePackage: Save=272.69ms
+[2017.04.21-14.11.54:459][207]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_BuiltData43813E8F408B18EC971E69952774876B.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.21-14.11.54:460][207]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.21-14.14.47:299][503]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master_DepthFade, compiling. 
+[2017.04.21-14.14.47:301][503]LogTemp:Display: Added material ShaderMap 0x000001BFB8149980 with Material 0x000001BF983CD780 to ShaderMapsBeingCompiled
+[2017.04.21-14.14.47:320][503]LogTemp:Display: Kicking off shader compilation for M_Trans_Sprite_SubUV_Master_DepthFade, GameThreadShaderMap 0x000001BFB8149980
+[2017.04.21-14.14.47:391][503]LogTexture:Display: Building textures: T_cracks_03 (AutoDXT, 1024X1024) - 190 MB total VRAM
+[2017.04.21-14.14.48:603][503]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 190 MB total VRAM
+[2017.04.21-14.14.48:858][503]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2017.04.21-14.14.51:052][650]LogTemp:Display: Finished compile of shader map 0x000001BFB8149980
+[2017.04.21-14.14.51:052][650]LogTemp:Display: Shader map M_Trans_Sprite_SubUV_Master_DepthFade complete, GameThreadShaderMap 0x000001BFB8149980, marking material M_Trans_Sprite_SubUV_Master_DepthFade as finished
+[2017.04.21-14.14.51:052][650]LogTemp:Display: Marking material as finished 0x000001BF983CD780
+[2017.04.21-14.15.01:075][654]LogCascade: Quitting Cascade. FXSystem=0x000001BF8B180680
+[2017.04.21-14.15.17:573][594]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 196 MB total VRAM
+[2017.04.21-14.15.27:432][550]LogCascade: Quitting Cascade. FXSystem=0x000001BE8D277240
+[2017.04.21-14.15.30:403][876]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 195 MB total VRAM
+[2017.04.21-14.15.33:634][167]LogCascade: Quitting Cascade. FXSystem=0x000001BF5D751DA0
+[2017.04.21-14.15.35:430][352]LogTexture:Display: Building textures: T_Flare_Streaks_02 (AutoDXT, 512X512) - 197 MB total VRAM
+[2017.04.21-14.15.35:524][352]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 197 MB total VRAM
+[2017.04.21-14.15.40:323][808]LogCascade: Quitting Cascade. FXSystem=0x000001BF507551C0
+[2017.04.21-14.15.58:569][954]LogTexture:Display: Building textures: T_Lightning_Radial_4X4 (AutoDXT, 1024X1024) - 199 MB total VRAM
+[2017.04.21-14.15.58:684][954]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 199 MB total VRAM
+[2017.04.21-14.16.01:350][191]LogCascade: Quitting Cascade. FXSystem=0x000001BFB63839C0
+[2017.04.21-14.16.02:294][288]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 200 MB total VRAM
+[2017.04.21-14.16.04:479][479]LogCascade: Quitting Cascade. FXSystem=0x000001BF504BC0E0
+[2017.04.21-14.16.16:424][863]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 200 MB total VRAM
+[2017.04.21-14.16.19:758][151]LogCascade: Quitting Cascade. FXSystem=0x000001BF6547AC00
+[2017.04.21-14.16.27:183][958]LogTexture:Display: Building textures: T_cracksFirey_01 (AutoDXT, 1024X1024) - 206 MB total VRAM
+[2017.04.21-14.16.28:385][958]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 206 MB total VRAM
+[2017.04.21-14.16.31:700][237]LogCascade: Quitting Cascade. FXSystem=0x000001BF5D705440
+[2017.04.21-14.16.53:206][714]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 208 MB total VRAM
+[2017.04.21-14.16.57:134][ 63]LogCascade: Quitting Cascade. FXSystem=0x000001BE9FF96F20
+[2017.04.21-14.16.59:339][294]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Emis_Master, compiling. 
+[2017.04.21-14.16.59:340][294]LogTemp:Display: Added material ShaderMap 0x000001BFCC5A4100 with Material 0x000001BF05DAE380 to ShaderMapsBeingCompiled
+[2017.04.21-14.16.59:368][294]LogTemp:Display: Kicking off shader compilation for M_Add_Trail_2Sided_Pan_Emis_Master, GameThreadShaderMap 0x000001BFCC5A4100
+[2017.04.21-14.16.59:388][294]LogTexture:Display: Building textures: T_SwipeTrail_02 (AutoDXT, 1024X1024) - 208 MB total VRAM
+[2017.04.21-14.16.59:591][294]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 208 MB total VRAM
+[2017.04.21-14.17.02:164][478]LogCascade: Quitting Cascade. FXSystem=0x000001BF74D4B100
+[2017.04.21-14.17.02:653][478]LogTemp:Display: Finished compile of shader map 0x000001BFCC5A4100
+[2017.04.21-14.17.02:653][478]LogTemp:Display: Shader map M_Add_Trail_2Sided_Pan_Emis_Master complete, GameThreadShaderMap 0x000001BFCC5A4100, marking material M_Add_Trail_2Sided_Pan_Emis_Master as finished
+[2017.04.21-14.17.02:653][478]LogTemp:Display: Marking material as finished 0x000001BF05DAE380
+[2017.04.21-14.17.05:106][744]LogTexture:Display: Building textures: T_Fire_Shock_01 (AutoDXT, 1024X1024) - 208 MB total VRAM
+[2017.04.21-14.17.05:422][744]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 208 MB total VRAM
+[2017.04.21-14.17.05:644][744]LogRenderer: Reallocating scene render targets to support 1436x888 NumSamples 1 (Frame:394818).
+[2017.04.21-14.17.08:055][957]LogCascade: Quitting Cascade. FXSystem=0x000001BFA36E60C0
+[2017.04.21-14.17.09:410][ 95]LogStaticMesh: Building static mesh SM_TerminusHammer...
+[2017.04.21-14.17.09:422][ 95]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.17.09:429][ 95]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_TerminusHammer.SM_TerminusHammer
+[2017.04.21-14.17.09:475][ 95]LogTexture:Display: Building textures: T_Hammered (AutoDXT, 1024X1024) - 212 MB total VRAM
+[2017.04.21-14.17.09:855][ 95]LogMaterial: Missing cached shader map for material M_Opaque_Hammer_Spin, compiling. 
+[2017.04.21-14.17.09:856][ 95]LogTemp:Display: Added material ShaderMap 0x000001BFB3BA0B80 with Material 0x000001BEC6357400 to ShaderMapsBeingCompiled
+[2017.04.21-14.17.09:864][ 95]LogTemp:Display: Kicking off shader compilation for M_Opaque_Hammer_Spin, GameThreadShaderMap 0x000001BFB3BA0B80
+[2017.04.21-14.17.09:868][ 95]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 212 MB total VRAM
+[2017.04.21-14.17.11:806][233]LogTemp:Display: Finished compile of shader map 0x000001BFB3BA0B80
+[2017.04.21-14.17.11:806][233]LogTemp:Display: Shader map M_Opaque_Hammer_Spin complete, GameThreadShaderMap 0x000001BFB3BA0B80, marking material M_Opaque_Hammer_Spin as finished
+[2017.04.21-14.17.11:806][233]LogTemp:Display: Marking material as finished 0x000001BEC6357400
+[2017.04.21-14.17.28:685][858]LogCascade: Quitting Cascade. FXSystem=0x000001BFC870A020
+[2017.04.21-14.17.39:157][ 65]LogTexture:Display: Building textures: T_Trail_Ice_01 (AutoDXT, 512X256) - 213 MB total VRAM
+[2017.04.21-14.17.39:204][ 65]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 213 MB total VRAM
+[2017.04.21-14.17.42:194][328]LogCascade: Quitting Cascade. FXSystem=0x000001BFB3411C60
+[2017.04.21-14.17.43:617][474]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 213 MB total VRAM
+[2017.04.21-14.17.47:417][805]LogCascade: Quitting Cascade. FXSystem=0x000001BE9B79AF20
+[2017.04.21-14.18.00:461][294]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None.FX_Test_Player_Hips_01'
+[2017.04.21-14.18.04:056][620]LogCascade: Quitting Cascade. FXSystem=0x000001BF65478AE0
+[2017.04.21-14.18.38:004][521]LogStaticMesh: Building static mesh SM_Box_Spikes_Mid...
+[2017.04.21-14.18.38:013][521]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.18.38:021][521]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeEffects/Effects/FX_Meshes/IB/SM_Box_Spikes_Mid.SM_Box_Spikes_Mid
+[2017.04.21-14.18.38:027][521]LogStaticMesh: Building static mesh SM_Box_Spikes_Blast...
+[2017.04.21-14.18.38:037][521]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.18.38:052][521]LogStaticMesh: Built static mesh [0.03s] /Game/InfinityBladeEffects/Effects/FX_Meshes/IB/SM_Box_Spikes_Blast.SM_Box_Spikes_Blast
+[2017.04.21-14.18.38:064][521]LogTexture:Display: Building textures: T_IB_FlareElements_1_2 (AutoDXT, 512X512) - 214 MB total VRAM
+[2017.04.21-14.18.38:171][521]LogMaterial: Missing cached shader map for material M_IB_Flares, compiling. 
+[2017.04.21-14.18.38:171][521]LogTemp:Display: Added material ShaderMap 0x000001BF980F7580 with Material 0x000001BE861F0400 to ShaderMapsBeingCompiled
+[2017.04.21-14.18.38:183][521]LogTemp:Display: Kicking off shader compilation for M_IB_Flares, GameThreadShaderMap 0x000001BF980F7580
+[2017.04.21-14.18.38:238][521]LogTexture:Display: Building textures: T_IB_FlashGrid (AutoDXT, 1024X1024) - 214 MB total VRAM
+[2017.04.21-14.18.39:204][521]LogMaterial: Missing cached shader map for material M_IB_Flash_Add, compiling. 
+[2017.04.21-14.18.39:204][521]LogTemp:Display: Added material ShaderMap 0x000001BFC9448100 with Material 0x000001BE9A3CF580 to ShaderMapsBeingCompiled
+[2017.04.21-14.18.39:219][521]LogTemp:Display: Kicking off shader compilation for M_IB_Flash_Add, GameThreadShaderMap 0x000001BFC9448100
+[2017.04.21-14.18.39:219][521]LogStaticMesh: Building static mesh SM_Box_Spikes_Outer...
+[2017.04.21-14.18.39:231][521]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.18.39:237][521]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeEffects/Effects/FX_Meshes/IB/SM_Box_Spikes_Outer.SM_Box_Spikes_Outer
+[2017.04.21-14.18.39:290][521]LogTexture:Display: Building textures: T_IB_Debris_Box (AutoDXT, 1024X1024) - 214 MB total VRAM
+[2017.04.21-14.18.40:014][521]LogTexture:Display: Building textures: T_IB_Debris_Box_E (AutoDXT, 1024X1024) - 214 MB total VRAM
+[2017.04.21-14.18.41:292][521]LogMaterial: Missing cached shader map for material M_IB_Debris_Boxes_Opaque, compiling. 
+[2017.04.21-14.18.41:293][521]LogTemp:Display: Added material ShaderMap 0x000001BF9415FC80 with Material 0x000001BEF7FFA500 to ShaderMapsBeingCompiled
+[2017.04.21-14.18.41:298][521]LogTemp:Display: Kicking off shader compilation for M_IB_Debris_Boxes_Opaque, GameThreadShaderMap 0x000001BF9415FC80
+[2017.04.21-14.18.41:298][521]LogStaticMesh: Building static mesh SM_Box_Spikes...
+[2017.04.21-14.18.41:303][521]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.18.41:305][521]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeEffects/Effects/FX_Meshes/IB/SM_Box_Spikes.SM_Box_Spikes
+[2017.04.21-14.18.41:308][521]LogStaticMesh: Building static mesh SM_Swipe_Impact...
+[2017.04.21-14.18.41:313][521]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.18.41:317][521]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeEffects/Effects/FX_Meshes/IB/SM_Swipe_Impact.SM_Swipe_Impact
+[2017.04.21-14.18.41:330][521]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 214 MB total VRAM
+[2017.04.21-14.18.41:569][521]LogTemp:Display: Finished compile of shader map 0x000001BF980F7580
+[2017.04.21-14.18.41:569][521]LogTemp:Display: Shader map M_IB_Flares complete, GameThreadShaderMap 0x000001BF980F7580, marking material M_IB_Flares as finished
+[2017.04.21-14.18.41:569][521]LogTemp:Display: Marking material as finished 0x000001BE861F0400
+[2017.04.21-14.18.41:683][521]LogRenderer: Reallocating scene render targets to support 1616x888 NumSamples 1 (Frame:407547).
+[2017.04.21-14.18.41:692][521]LogRenderer: Reallocating scene render targets to support 1796x888 NumSamples 1 (Frame:407548).
+[2017.04.21-14.18.44:839][763]LogTemp:Display: Finished compile of shader map 0x000001BFC9448100
+[2017.04.21-14.18.44:839][763]LogTemp:Display: Shader map M_IB_Flash_Add complete, GameThreadShaderMap 0x000001BFC9448100, marking material M_IB_Flash_Add as finished
+[2017.04.21-14.18.44:839][763]LogTemp:Display: Marking material as finished 0x000001BE9A3CF580
+[2017.04.21-14.18.44:842][763]LogTemp:Display: Finished compile of shader map 0x000001BF9415FC80
+[2017.04.21-14.18.44:842][763]LogTemp:Display: Shader map M_IB_Debris_Boxes_Opaque complete, GameThreadShaderMap 0x000001BF9415FC80, marking material M_IB_Debris_Boxes_Opaque as finished
+[2017.04.21-14.18.44:842][763]LogTemp:Display: Marking material as finished 0x000001BEF7FFA500
+[2017.04.21-14.18.53:456][617]LogCascade: Quitting Cascade. FXSystem=0x000001BFB64F6200
+[2017.04.21-14.18.55:465][823]LogTexture:Display: Building textures: T_AnimGrid_6_6 (AutoDXT, 1024X1024) - 218 MB total VRAM
+[2017.04.21-14.18.56:251][823]LogMaterial: Missing cached shader map for material M_IB_Flares_Grid, compiling. 
+[2017.04.21-14.18.56:252][823]LogTemp:Display: Added material ShaderMap 0x000001BF251E9280 with Material 0x000001BFB627A680 to ShaderMapsBeingCompiled
+[2017.04.21-14.18.56:264][823]LogTemp:Display: Kicking off shader compilation for M_IB_Flares_Grid, GameThreadShaderMap 0x000001BF251E9280
+[2017.04.21-14.18.56:285][823]LogTexture:Display: Building textures: T_AnimGrid_2_6_6 (AutoDXT, 1024X1024) - 218 MB total VRAM
+[2017.04.21-14.18.56:744][823]LogMaterial: Missing cached shader map for material M_IB_AnimGrid_2_Trans, compiling. 
+[2017.04.21-14.18.56:744][823]LogTemp:Display: Added material ShaderMap 0x000001BF93C4AB00 with Material 0x000001BE9A32A080 to ShaderMapsBeingCompiled
+[2017.04.21-14.18.56:793][823]LogTemp:Display: Kicking off shader compilation for M_IB_AnimGrid_2_Trans, GameThreadShaderMap 0x000001BF93C4AB00
+[2017.04.21-14.18.56:798][823]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 218 MB total VRAM
+[2017.04.21-14.19.00:336][ 89]LogTemp:Display: Finished compile of shader map 0x000001BF251E9280
+[2017.04.21-14.19.00:336][ 89]LogTemp:Display: Shader map M_IB_Flares_Grid complete, GameThreadShaderMap 0x000001BF251E9280, marking material M_IB_Flares_Grid as finished
+[2017.04.21-14.19.00:336][ 89]LogTemp:Display: Marking material as finished 0x000001BFB627A680
+[2017.04.21-14.19.03:988][403]LogCascade: Quitting Cascade. FXSystem=0x000001BFB65BDB20
+[2017.04.21-14.19.13:537][323]LogTexture:Display: Building textures: T_SlashArc (AutoDXT, 1024X1024) - 219 MB total VRAM
+[2017.04.21-14.19.13:690][323]LogStaticMesh: Building static mesh SM_SlashArc...
+[2017.04.21-14.19.13:695][323]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.21-14.19.13:695][323]LogStaticMesh: Built static mesh [0.01s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SlashArc.SM_SlashArc
+[2017.04.21-14.19.13:702][323]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 219 MB total VRAM
+[2017.04.21-14.19.14:028][326]LogTemp:Display: Finished compile of shader map 0x000001BF93C4AB00
+[2017.04.21-14.19.14:028][326]LogTemp:Display: Shader map M_IB_AnimGrid_2_Trans complete, GameThreadShaderMap 0x000001BF93C4AB00, marking material M_IB_AnimGrid_2_Trans as finished
+[2017.04.21-14.19.14:028][326]LogTemp:Display: Marking material as finished 0x000001BE9A32A080
+[2017.04.21-14.19.18:423][766]LogCascade: Quitting Cascade. FXSystem=0x000001BFB7C249A0
+[2017.04.21-14.19.53:063][813]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512) - 220 MB total VRAM
+[2017.04.21-14.19.55:343][ 16]LogCascade: Quitting Cascade. FXSystem=0x000001BF782BA480
+[2017.04.21-14.24.20:393][961]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None.FX_Test_Player_Hips_01'
+[2017.04.21-14.24.25:892][471]LogCascade: Quitting Cascade. FXSystem=0x000001BFC86F8EA0
+[2017.04.21-14.24.27:581][638]LogSavePackage: Save=19.20ms
+[2017.04.21-14.24.27:581][638]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/P_PlayerAttackC5F8210D4B6DB0B0C4C74A9A0819A012.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InfinityBladeEffects/Effects/FX_Skill_Whirlwind/P_PlayerAttack.uasset'
+[2017.04.21-14.24.27:583][638]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/InfinityBladeEffects/Effects/FX_Skill_Whirlwind/P_PlayerAttack.uasset
+[2017.04.21-14.28.11:174][720]LogEditorViewport: Clicking on Actor (LMB): Master_NPC_C (Master_NPC)
+[2017.04.21-14.30.16:857][632]BlueprintLog: New page: Compile Ch_MyCharacter
