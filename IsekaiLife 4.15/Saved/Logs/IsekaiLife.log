@@ -3056,3 +3056,236 @@ Make sure 'MainWidget_C' has been compiled for  Get PrestigeText
 [2017.04.22-14.03.23:894][567]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/SellWidget_Auto20C7378D247DD44994A96DE972545F3D8.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/SellWidget_Auto2.uasset'
 [2017.04.22-14.03.23:895][567]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/SellWidget_Auto2.uasset
 [2017.04.22-14.03.23:895][567]LogFileHelpers: Auto-saving content packages took 1.238
+[2017.04.22-14.39.38:187][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.22-14.39.41:684][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.22-14.40.06:974][611]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_QuestInfo_85' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_QuestInfo_85' is empty
+[2017.04.22-14.40.06:974][611]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_CompletedGoal_86' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_CompletedGoal_86' is empty
+[2017.04.22-14.40.07:554][659]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_QuestInfo_91' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_QuestInfo_91' is empty
+[2017.04.22-14.40.07:555][659]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_CompletedGoal_92' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_CompletedGoal_92' is empty
+[2017.04.22-14.40.33:892][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.068
+[2017.04.22-14.40.33:894][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
+[2017.04.22-14.40.33:894][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
+[2017.04.22-14.40.34:015][866]LogSavePackage: Save=113.57ms
+[2017.04.22-14.40.34:015][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto3C051CD8A48FA81320232289B6069DD7D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto3.uasset'
+[2017.04.22-14.40.34:016][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto3.uasset
+[2017.04.22-14.40.34:018][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest] ([1] browsable assets)...
+[2017.04.22-14.40.34:018][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest]
+[2017.04.22-14.40.34:126][866]LogSavePackage: Save=100.97ms
+[2017.04.22-14.40.34:126][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_MasterQuest_Auto382A0FDA549F6C9F22BE7298C50CE0D84.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest_Auto3.uasset'
+[2017.04.22-14.40.34:127][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest_Auto3.uasset
+[2017.04.22-14.40.34:127][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Structures/S_GoalInfo] ([1] browsable assets)...
+[2017.04.22-14.40.34:127][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Structures/S_GoalInfo]
+[2017.04.22-14.40.34:139][866]LogSavePackage: Save=5.23ms
+[2017.04.22-14.40.34:139][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_GoalInfo_Auto3AE53DE7A44ED3B2F54694DBB2BA79DCE.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Structures/S_GoalInfo_Auto3.uasset'
+[2017.04.22-14.40.34:139][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Structures/S_GoalInfo_Auto3.uasset
+[2017.04.22-14.40.34:140][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Structures/S_QuestInfo] ([1] browsable assets)...
+[2017.04.22-14.40.34:140][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Structures/S_QuestInfo]
+[2017.04.22-14.40.34:151][866]LogSavePackage: Save=4.38ms
+[2017.04.22-14.40.34:151][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_QuestInfo_Auto30BC706054F40609546628C936AC3D833.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Structures/S_QuestInfo_Auto3.uasset'
+[2017.04.22-14.40.34:152][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Structures/S_QuestInfo_Auto3.uasset
+[2017.04.22-14.40.34:153][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestWidget] ([1] browsable assets)...
+[2017.04.22-14.40.34:153][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestWidget]
+[2017.04.22-14.40.34:193][866]LogSavePackage: Save=33.67ms
+[2017.04.22-14.40.34:193][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestWidget_Auto37091305E46B3B8F9B384B8B688852EE7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestWidget_Auto3.uasset'
+[2017.04.22-14.40.34:194][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestWidget_Auto3.uasset
+[2017.04.22-14.40.34:194][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Structures/S_CompletedGoal] ([1] browsable assets)...
+[2017.04.22-14.40.34:194][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Structures/S_CompletedGoal]
+[2017.04.22-14.40.34:209][866]LogSavePackage: Save=9.05ms
+[2017.04.22-14.40.34:209][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_CompletedGoal_Auto3A42DF565414C8D8FFACA569CC415535D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Structures/S_CompletedGoal_Auto3.uasset'
+[2017.04.22-14.40.34:210][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Structures/S_CompletedGoal_Auto3.uasset
+[2017.04.22-14.40.34:211][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestListEntry] ([1] browsable assets)...
+[2017.04.22-14.40.34:211][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestListEntry]
+[2017.04.22-14.40.34:246][866]LogSavePackage: Save=28.85ms
+[2017.04.22-14.40.34:246][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestListEntry_Auto3E0CBD34A4B6AEF1ABCF91B8B6CEA9243.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestListEntry_Auto3.uasset'
+[2017.04.22-14.40.34:247][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestListEntry_Auto3.uasset
+[2017.04.22-14.40.34:248][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestJournal] ([1] browsable assets)...
+[2017.04.22-14.40.34:248][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestJournal]
+[2017.04.22-14.40.34:345][866]LogSavePackage: Save=88.93ms
+[2017.04.22-14.40.34:345][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestJournal_Auto3EA667DC84BCC24E1503010BD02E69D65.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestJournal_Auto3.uasset'
+[2017.04.22-14.40.34:347][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestJournal_Auto3.uasset
+[2017.04.22-14.40.34:347][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/sUBgOALwIDGET] ([1] browsable assets)...
+[2017.04.22-14.40.34:347][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/sUBgOALwIDGET]
+[2017.04.22-14.40.34:385][866]LogSavePackage: Save=30.69ms
+[2017.04.22-14.40.34:385][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGET_Auto3F76257C746FC52E16351619CD6B125A2.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/sUBgOALwIDGET_Auto3.uasset'
+[2017.04.22-14.40.34:386][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/sUBgOALwIDGET_Auto3.uasset
+[2017.04.22-14.40.34:387][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/GoalEntry] ([1] browsable assets)...
+[2017.04.22-14.40.34:387][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/GoalEntry]
+[2017.04.22-14.40.34:417][866]LogSavePackage: Save=21.71ms
+[2017.04.22-14.40.34:417][866]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/GoalEntry_Auto3CFD527744F4BCBC0C2A290B77A01DF01.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/GoalEntry_Auto3.uasset'
+[2017.04.22-14.40.34:418][866]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/GoalEntry_Auto3.uasset
+[2017.04.22-14.40.34:418][866]LogFileHelpers: Auto-saving content packages took 0.525
+[2017.04.22-14.40.56:966][204]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_QuestInfo_97' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_QuestInfo_97' is empty
+[2017.04.22-14.40.56:966][204]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_CompletedGoal_98' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_CompletedGoal_98' is empty
+[2017.04.22-14.41.03:896][747]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_QuestInfo_103' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_QuestInfo_103' is empty
+[2017.04.22-14.41.03:897][747]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_CompletedGoal_104' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_CompletedGoal_104' is empty
+[2017.04.22-14.41.12:676][668]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_CompletedGoal_109' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_CompletedGoal_109' is empty
+[2017.04.22-14.41.12:676][668]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_QuestInfo_110' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_QuestInfo_110' is empty
+[2017.04.22-14.41.18:981][ 58]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_CompletedGoal_115' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_CompletedGoal_115' is empty
+[2017.04.22-14.41.18:982][ 58]LogClass: UUserDefinedStruct.Serialize 'STRUCT_REINST_S_QuestInfo_116' validation: Struct 'UserDefinedStruct /Engine/Transient.STRUCT_REINST_S_QuestInfo_116' is empty
+[2017.04.22-14.41.23:376][412]LogSavePackage: Save=5.71ms
+[2017.04.22-14.41.23:376][412]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_GoalInfoC8A1E3234FB78C47DE637EA494429D7F.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_GoalInfo.uasset'
+[2017.04.22-14.41.23:381][412]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_GoalInfo.uasset
+[2017.04.22-14.41.57:702][130]LogSavePackage: Save=4.11ms
+[2017.04.22-14.41.57:702][130]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_QuestInfoC050506B4BE76BC992364694D3E5A84F.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_QuestInfo.uasset'
+[2017.04.22-14.41.57:708][130]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_QuestInfo.uasset
+[2017.04.22-14.41.58:841][242]LogSavePackage: Save=4.03ms
+[2017.04.22-14.41.58:841][242]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_CompletedGoalA17DCFBA4D7256B9660828A0559F362A.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_CompletedGoal.uasset'
+[2017.04.22-14.41.58:847][242]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_CompletedGoal.uasset
+[2017.04.22-14.43.01:766][ 76]LogSavePackage: Save=3.76ms
+[2017.04.22-14.43.01:766][ 76]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/S_IndexToCompleteB1DA9024440AEDC1ACE60598BFC434A7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_IndexToComplete.uasset'
+[2017.04.22-14.43.01:767][ 76]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Structures/S_IndexToComplete.uasset
+[2017.04.22-14.44.01:268][670]BlueprintLog: New page: Compile BP_QuestManager
+[2017.04.22-14.44.05:034][732]LogSavePackage: Save=98.94ms
+[2017.04.22-14.44.05:034][732]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManagerAB1193334DB2A0433FEDB3B5D21C5D0E.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
+[2017.04.22-14.44.05:040][732]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
+[2017.04.22-14.45.01:326][101]BlueprintLog: New page: Compile BP_MasterQuest
+[2017.04.22-14.45.03:158][174]LogSavePackage: Save=89.60ms
+[2017.04.22-14.45.03:158][174]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_MasterQuest8B6445B9458189C4EE59919D34AD57A9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest.uasset'
+[2017.04.22-14.45.03:165][174]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest.uasset
+[2017.04.22-14.54.40:884][868]LogSavePackage: Save=270.49ms
+[2017.04.22-14.54.40:884][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_Auto442FB2F9447CB1E44859463BB666F05EC.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.04.22-14.54.40:885][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.04.22-14.54.40:887][868]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.333
+[2017.04.22-14.54.40:887][868]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.333
+[2017.04.22-14.54.40:890][868]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
+[2017.04.22-14.54.40:911][868]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
+[2017.04.22-14.54.40:911][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
+[2017.04.22-14.54.41:184][868]LogSavePackage: Save=265.81ms
+[2017.04.22-14.54.41:184][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto4124CF96949E1BD42B9ABAFA07885EB1D.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto4.uasset'
+[2017.04.22-14.54.41:185][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto4.uasset
+[2017.04.22-14.54.41:186][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Blueprints/BP_Inventory] ([1] browsable assets)...
+[2017.04.22-14.54.41:186][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Blueprints/BP_Inventory]
+[2017.04.22-14.54.41:589][868]LogSavePackage: Save=393.51ms
+[2017.04.22-14.54.41:589][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory_Auto42F9B8959444F83DA3267C5A5E781ABD0.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_Inventory_Auto4.uasset'
+[2017.04.22-14.54.41:590][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_Inventory_Auto4.uasset
+[2017.04.22-14.54.41:591][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture] ([1] browsable assets)...
+[2017.04.22-14.54.41:591][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/MiniMap/MapCapture]
+[2017.04.22-14.54.41:607][868]LogSavePackage: Save=9.77ms
+[2017.04.22-14.54.41:607][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/MapCapture_Auto412E32A9243A838C23DC3159C1450A4C7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto4.uasset'
+[2017.04.22-14.54.41:608][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/MiniMap/MapCapture_Auto4.uasset
+[2017.04.22-14.54.41:609][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Blueprints/BP_PickUpActor] ([1] browsable assets)...
+[2017.04.22-14.54.41:609][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Blueprints/BP_PickUpActor]
+[2017.04.22-14.54.41:665][868]LogSavePackage: Save=48.96ms
+[2017.04.22-14.54.41:665][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_PickUpActor_Auto4722B33C2438FDB67A6A1EF8C64721F98.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_PickUpActor_Auto4.uasset'
+[2017.04.22-14.54.41:666][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_PickUpActor_Auto4.uasset
+[2017.04.22-14.54.41:666][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/RecipeEntry] ([1] browsable assets)...
+[2017.04.22-14.54.41:666][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/RecipeEntry]
+[2017.04.22-14.54.41:698][868]LogSavePackage: Save=25.11ms
+[2017.04.22-14.54.41:698][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/RecipeEntry_Auto45181FF1144A292671A15FD80F23CB682.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/RecipeEntry_Auto4.uasset'
+[2017.04.22-14.54.41:699][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/RecipeEntry_Auto4.uasset
+[2017.04.22-14.54.41:700][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
+[2017.04.22-14.54.41:700][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
+[2017.04.22-14.54.41:806][868]LogSavePackage: Save=98.97ms
+[2017.04.22-14.54.41:806][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto41A34439F41E2D5AD27BC26A31009DE25.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto4.uasset'
+[2017.04.22-14.54.41:807][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto4.uasset
+[2017.04.22-14.54.41:808][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest] ([1] browsable assets)...
+[2017.04.22-14.54.41:808][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest]
+[2017.04.22-14.54.41:921][868]LogSavePackage: Save=104.80ms
+[2017.04.22-14.54.41:921][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_MasterQuest_Auto4DF5BF9F241DFF376BB4BC09F670CDAD7.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest_Auto4.uasset'
+[2017.04.22-14.54.41:921][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest_Auto4.uasset
+[2017.04.22-14.54.41:922][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestWidget] ([1] browsable assets)...
+[2017.04.22-14.54.41:922][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestWidget]
+[2017.04.22-14.54.41:962][868]LogSavePackage: Save=32.88ms
+[2017.04.22-14.54.41:962][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestWidget_Auto483C4FC514886B62E71230D815C445154.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestWidget_Auto4.uasset'
+[2017.04.22-14.54.41:963][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestWidget_Auto4.uasset
+[2017.04.22-14.54.41:963][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestListEntry] ([1] browsable assets)...
+[2017.04.22-14.54.41:963][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestListEntry]
+[2017.04.22-14.54.41:998][868]LogSavePackage: Save=28.20ms
+[2017.04.22-14.54.41:998][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestListEntry_Auto432D9B24A4EB573703B92C0BC3BE2FA98.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestListEntry_Auto4.uasset'
+[2017.04.22-14.54.41:998][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestListEntry_Auto4.uasset
+[2017.04.22-14.54.41:999][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestJournal] ([1] browsable assets)...
+[2017.04.22-14.54.41:999][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestJournal]
+[2017.04.22-14.54.42:096][868]LogSavePackage: Save=89.03ms
+[2017.04.22-14.54.42:096][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestJournal_Auto47D170DB64BFEC629210FCEB363BC4709.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestJournal_Auto4.uasset'
+[2017.04.22-14.54.42:096][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestJournal_Auto4.uasset
+[2017.04.22-14.54.42:097][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/sUBgOALwIDGET] ([1] browsable assets)...
+[2017.04.22-14.54.42:097][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/sUBgOALwIDGET]
+[2017.04.22-14.54.42:132][868]LogSavePackage: Save=28.63ms
+[2017.04.22-14.54.42:132][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGET_Auto41667C81C4EE8E746508CAA8CE82D7642.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/sUBgOALwIDGET_Auto4.uasset'
+[2017.04.22-14.54.42:133][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/sUBgOALwIDGET_Auto4.uasset
+[2017.04.22-14.54.42:133][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/GoalEntry] ([1] browsable assets)...
+[2017.04.22-14.54.42:133][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/GoalEntry]
+[2017.04.22-14.54.42:161][868]LogSavePackage: Save=20.63ms
+[2017.04.22-14.54.42:161][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/GoalEntry_Auto4CC8019A6488E38AAB23D3A895EAEE331.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/GoalEntry_Auto4.uasset'
+[2017.04.22-14.54.42:162][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/GoalEntry_Auto4.uasset
+[2017.04.22-14.54.42:162][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/Inventory] ([1] browsable assets)...
+[2017.04.22-14.54.42:162][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/Inventory]
+[2017.04.22-14.54.42:220][868]LogSavePackage: Save=50.55ms
+[2017.04.22-14.54.42:220][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Inventory_Auto43CF379BE418E32AD0576DD8497110140.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/Inventory_Auto4.uasset'
+[2017.04.22-14.54.42:221][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/Inventory_Auto4.uasset
+[2017.04.22-14.54.42:221][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/ThrowWidget] ([1] browsable assets)...
+[2017.04.22-14.54.42:221][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/ThrowWidget]
+[2017.04.22-14.54.42:281][868]LogSavePackage: Save=52.83ms
+[2017.04.22-14.54.42:281][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThrowWidget_Auto4B2BEC6D942959725E733B882C5330A08.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ThrowWidget_Auto4.uasset'
+[2017.04.22-14.54.42:282][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/ThrowWidget_Auto4.uasset
+[2017.04.22-14.54.42:282][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Widgets/SellWidget] ([1] browsable assets)...
+[2017.04.22-14.54.42:282][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Widgets/SellWidget]
+[2017.04.22-14.54.42:352][868]LogSavePackage: Save=62.26ms
+[2017.04.22-14.54.42:352][868]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/SellWidget_Auto45BE79CE9431FE583AF71348DC4CAD251.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/SellWidget_Auto4.uasset'
+[2017.04.22-14.54.42:352][868]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Widgets/SellWidget_Auto4.uasset
+[2017.04.22-14.54.42:352][868]LogFileHelpers: Auto-saving content packages took 1.464
+[2017.04.22-14.56.12:351][744]BlueprintLog: New page: Compile BP_MasterQuest
+[2017.04.22-14.56.14:018][783]LogSavePackage: Save=106.05ms
+[2017.04.22-14.56.14:018][783]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_MasterQuest140DC4F949DDD594D0805C9DEC18FBA6.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest.uasset'
+[2017.04.22-14.56.14:023][783]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/QuestActors/BP_MasterQuest.uasset
+[2017.04.22-15.07.14:632][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.037
+[2017.04.22-15.07.14:634][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Game/Character/Player/Ch_MyCharacter] ([1] browsable assets)...
+[2017.04.22-15.07.14:651][840]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/Character/Player/Ch_MyCharacter.Ch_MyCharacter]
+[2017.04.22-15.07.14:652][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/Character/Player/Ch_MyCharacter]
+[2017.04.22-15.07.14:922][840]LogSavePackage: Save=260.12ms
+[2017.04.22-15.07.14:922][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Ch_MyCharacter_Auto540E8C24646300E1A64B66A997BDB89A9.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto5.uasset'
+[2017.04.22-15.07.14:923][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/Game/Character/Player/Ch_MyCharacter_Auto5.uasset
+[2017.04.22-15.07.14:924][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/InventorySystem/Blueprints/BP_Inventory] ([1] browsable assets)...
+[2017.04.22-15.07.14:924][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/InventorySystem/Blueprints/BP_Inventory]
+[2017.04.22-15.07.15:330][840]LogSavePackage: Save=396.94ms
+[2017.04.22-15.07.15:330][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_Inventory_Auto5003EB18E4BC442321C043D8B3ADCFE60.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_Inventory_Auto5.uasset'
+[2017.04.22-15.07.15:331][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/InventorySystem/Blueprints/BP_Inventory_Auto5.uasset
+[2017.04.22-15.07.15:332][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager] ([1] browsable assets)...
+[2017.04.22-15.07.15:332][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Blueprints/Actors/BP_QuestManager]
+[2017.04.22-15.07.15:455][840]LogSavePackage: Save=115.41ms
+[2017.04.22-15.07.15:455][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManager_Auto5611AA80F4AE4A19C585F7C940122D8AA.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto5.uasset'
+[2017.04.22-15.07.15:456][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Blueprints/Actors/BP_QuestManager_Auto5.uasset
+[2017.04.22-15.07.15:456][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestWidget] ([1] browsable assets)...
+[2017.04.22-15.07.15:456][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestWidget]
+[2017.04.22-15.07.15:496][840]LogSavePackage: Save=32.95ms
+[2017.04.22-15.07.15:496][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestWidget_Auto5B45584994D53B176A9F663A021E0B6A1.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestWidget_Auto5.uasset'
+[2017.04.22-15.07.15:497][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestWidget_Auto5.uasset
+[2017.04.22-15.07.15:497][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestListEntry] ([1] browsable assets)...
+[2017.04.22-15.07.15:497][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestListEntry]
+[2017.04.22-15.07.15:533][840]LogSavePackage: Save=28.59ms
+[2017.04.22-15.07.15:533][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestListEntry_Auto56510D2FA40BCE96499B47BA83A4A5A45.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestListEntry_Auto5.uasset'
+[2017.04.22-15.07.15:534][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestListEntry_Auto5.uasset
+[2017.04.22-15.07.15:534][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/QuestJournal] ([1] browsable assets)...
+[2017.04.22-15.07.15:534][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/QuestJournal]
+[2017.04.22-15.07.15:630][840]LogSavePackage: Save=88.86ms
+[2017.04.22-15.07.15:630][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestJournal_Auto5C5A8F3D5461F3643574A7B96834144FA.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestJournal_Auto5.uasset'
+[2017.04.22-15.07.15:631][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/QuestJournal_Auto5.uasset
+[2017.04.22-15.07.15:631][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/sUBgOALwIDGET] ([1] browsable assets)...
+[2017.04.22-15.07.15:631][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/sUBgOALwIDGET]
+[2017.04.22-15.07.15:666][840]LogSavePackage: Save=27.86ms
+[2017.04.22-15.07.15:666][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/sUBgOALwIDGET_Auto5EC8B57D946F3E1F218EE4BB2C7A6CD12.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/sUBgOALwIDGET_Auto5.uasset'
+[2017.04.22-15.07.15:667][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/sUBgOALwIDGET_Auto5.uasset
+[2017.04.22-15.07.15:668][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/QuestSystem/Widgets/GoalEntry] ([1] browsable assets)...
+[2017.04.22-15.07.15:668][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/QuestSystem/Widgets/GoalEntry]
+[2017.04.22-15.07.15:695][840]LogSavePackage: Save=20.66ms
+[2017.04.22-15.07.15:695][840]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/GoalEntry_Auto55A43250C434CF7974EE54F94BCBA82DC.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/GoalEntry_Auto5.uasset'
+[2017.04.22-15.07.15:696][840]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/Autosaves/Game/QuestSystem/Widgets/GoalEntry_Auto5.uasset
+[2017.04.22-15.07.15:696][840]LogFileHelpers: Auto-saving content packages took 1.063
+[2017.04.22-15.08.34:298][314]BlueprintLog: New page: Compile QuestJournal
+[2017.04.22-15.08.36:482][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QuestSystem/Widgets/QuestJournal" FILE="X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestJournal.uasset" SILENT=true
+[2017.04.22-15.08.36:579][531]LogSavePackage: Save=91.63ms
+[2017.04.22-15.08.36:579][531]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/QuestJournalA7AD01CF499A2215E6A0B1853557952C.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestJournal.uasset'
+[2017.04.22-15.08.36:585][531]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Widgets/QuestJournal.uasset
+[2017.04.22-15.13.15:694][310]Cmd: SELECT NONE
+[2017.04.22-15.13.21:616][981]LogSavePackage: Save=252.92ms
+[2017.04.22-15.13.21:616][981]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap38FB4AE948ECEC3D31AEFBA279EA3F39.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.04.22-15.13.21:623][981]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.04.22-15.13.22:008][981]LogSavePackage: Save=273.69ms
+[2017.04.22-15.13.22:008][981]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/ThirdPersonExampleMap_BuiltData6B3E62744E952C021980A2B2716EFC92.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.04.22-15.13.22:009][981]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.04.22-15.14.15:075][370]BlueprintLog: New page: Compile BP_QuestManager
+[2017.04.22-15.14.16:198][418]LogSavePackage: Save=125.35ms
+[2017.04.22-15.14.16:198][418]LogSavePackage: Moving 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Saved/BP_QuestManagerABE52D8448FC667D880EE3BC60BA5D77.tmp' to 'X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset'
+[2017.04.22-15.14.16:204][418]LogSavePackage:Display: Finished SavePackage X:/Aratim/Documents/GitHub/ProjetInfoSolo/IsekaiLife 4.15/Content/QuestSystem/Blueprints/Actors/BP_QuestManager.uasset
+[2017.04.22-15.19.58:303][612]LogClass:Warning: Type mismatch in IndiceToCompleteLater of SKEL_BP_QuestManager_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.04.22-15.24.29:123][815]BlueprintLog: New page: Collapse to Function
